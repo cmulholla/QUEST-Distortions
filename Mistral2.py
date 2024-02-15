@@ -21,7 +21,7 @@ def generate_response(text):
         inputs = tokenizer(text, return_tensors="pt").to(0)
     elif (precision == "fp32"):
         inputs = tokenizer(text, return_tensors="pt")
-    outputs = model.generate(**inputs, max_new_tokens=1024, do_sample=True, use_cache=True, top_k=50, top_p=0.95, temperature=0.9)
+    outputs = model.generate(**inputs, max_new_tokens=256, do_sample=True, use_cache=True, top_k=50, top_p=0.95, temperature=0.9)
     response = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
     # Remove the prompt from the start of the response
