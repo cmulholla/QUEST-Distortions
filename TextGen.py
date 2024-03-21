@@ -14,20 +14,19 @@ precision = "fp4"
 path=f"N:\\AI\\text-generation-webui-main\\models\\teknium_OpenHermes-2-Mistral-7B\\"
 #path=f"N:\\AI\\mistral-7B-instruct\\"
 
-#generate_data = [
-#                    ("Magnification", 240-195), 
-#                    ("Labeling", 240-165), 
-#                    ("Personalization", 240-153), 
-#                    ("Fortune-telling", 240-143), 
-#                    ("Emotional Reasoning", 240-134), 
-#                    ("Mental Filter", 240-122), 
-#                    ("Should statements", 240-107), 
-#                    ("All-or-nothing thinking", 240-100)
-#                ]
+to_generate = 239
 
 generate_data = [
-                    ("Magnification", 5), 
-                    ("Labeling", 5)
+                    ("Mind reading", to_generate-239),
+                    ("Overgeneralization", to_generate-239),
+                    ("Magnification", to_generate-195),
+                    ("Labeling", to_generate-165),
+                    ("Personalization", to_generate-153),
+                    ("Fortune-telling", to_generate-143),
+                    ("Emotional Reasoning", to_generate-134),
+                    ("Mental Filter", to_generate-122),
+                    ("Should statements", to_generate-107),
+                    ("All-or-nothing thinking", to_generate-100)
                 ]
 
 # if the model variable exists, delete it to free up memory before loading the new model
@@ -96,7 +95,7 @@ for c in range(len(generate_data)):
 
         new_output = generate_response(input_string)
 
-        if new_output[0] == '\n':
+        if input_string.__len__() > 1 and new_output[0] == '\n':
             new_output = new_output[1:]
 
 
