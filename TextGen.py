@@ -105,5 +105,7 @@ for c in range(len(generate_data)):
         # Concatenate the new row to the DataFrame
         df = pd.concat([df, pd.DataFrame({"Distorted part": [new_output], "Dominant Distortion": [generate_data[c][0]]})], ignore_index=True)
 
+        print(f"Generated {i+1} of {generate_data[c][1]} for {generate_data[c][0]}")
+
 # save the dataframe to a csv file
 df.to_csv("distorted_parts.csv", index=False)
