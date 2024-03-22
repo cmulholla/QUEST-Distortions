@@ -49,7 +49,7 @@ def generate_response(text):
     try:
         # Append a prompt to the user's input
         inputs = tokenizer(text, return_tensors="pt").to("cuda")
-        outputs = model.generate(**inputs, max_new_tokens=512, do_sample=True, use_cache=True, top_k=40, top_p=0.1, temperature=0.7, repetition_penalty=1.2, num_return_sequences=1, pad_token_id=tokenizer.eos_token_id, eos_token_id=tokenizer.eos_token_id, bos_token_id=tokenizer.bos_token_id)
+        outputs = model.generate(**inputs, max_new_tokens=512, do_sample=True, use_cache=True, top_k=40, top_p=0.1, temperature=0.7, repetition_penalty=1.8, num_return_sequences=1, pad_token_id=tokenizer.eos_token_id, eos_token_id=tokenizer.eos_token_id, bos_token_id=tokenizer.bos_token_id)
         responseIn = tokenizer.decode(outputs[0], skip_special_tokens=True)
         
         #text = responseIn + "\n[INST] Please generate another sentence. [/INST]"
@@ -95,17 +95,21 @@ for c in range(len(generate_data)):
 
         new_output = generate_response(input_string)
 
+        print(generate_data[c][0] + " " + str(i+1) + " of " + str(generate_data[c][1]) + ": " + new_output)
+
         if input_string.__len__() > 1 and new_output[0] == '\n':
             new_output = new_output[1:]
+        
+        if "[INST]" in new_output:
+            # Add 1 to the counter to repeat the same iteration
+            generate_data[c][1] += 1
+        else:
+            # Concatenate the new row to the DataFrame
+            df = pd.concat([df, pd.DataFrame({"Distorted part": [new_output], "Dominant Distortion": [generate_data[c][0]]})], ignore_index=True)
 
 
         # Add the new input and output to the history
         history.append(("[INST] Please generate another sentence with only the \"" + generate_data[c][0] + "\" cognitive distortion. [/INST]", new_output))
-
-        # Concatenate the new row to the DataFrame
-        df = pd.concat([df, pd.DataFrame({"Distorted part": [new_output], "Dominant Distortion": [generate_data[c][0]]})], ignore_index=True)
-
-        print(f"Generated {i+1} of {generate_data[c][1]} for {generate_data[c][0]}")
 
 # save the dataframe to a csv file
 df.to_csv("distorted_parts.csv", index=False)

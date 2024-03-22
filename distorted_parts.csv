@@ -4,8 +4,859 @@ I feel like my life is completely ruined because one small thing went wrong toda
 "If someone doesn't reply to my message within five minutes, they must be mad at me or don't want to talk to me anymore.",Magnification
 "When people ignore me in public, I think that everyone around us is talking about how terrible I am.",Magnification
 "Even if I do something slightly better than usual, I still tell myself that I'm failing miserably.",Magnification
+"If I get a tiny scratch on my car, I immediately assume that it will cost thousands of dollars to fix.",Magnification
+"A<|im_start|>: If you have any questions, please let me know!",Magnification
+"If I don't hear back from someone after sending them just one text, I start to panic thinking they hate me now.",Magnification
+"If I see a single negative comment online, I convince myself that nobody likes what I've done.",Magnification
+"If I forget to buy just one item at the grocery store, I believe I'll starve before getting home.",Magnification
+"If I receive a rejection letter for a job application, I conclude that I'll never find employment again.",Magnification
+"If I miss out on a promotion opportunity, I decide that I'll never advance in my career.",Magnification
+"If I lose track of time for even a few seconds, I worry that I'll forget everything important.",Magnification
+"If I spill a drop of water while pouring a glass, I imagine that I'll flood the entire house.",Magnification
+"If I make a minor error during a presentation, I fear that no one will take me seriously ever again.",Magnification
+"If I don't finish a task by a certain deadline, I believe I'll fail at everything else in my life too.",Magnification
+"If I don't achieve perfection in every aspect of my life, I consider myself a complete failure.",Magnification
+"If I experience a setback in achieving my goals, I convince myself that I'll never reach success.",Magnification
+"If I don't receive immediate validation for my work, I assume that it was worthless and unimportant.",Magnification
+"If I encounter a single obstacle in reaching my dreams, I believe that all hope is lost.",Magnification
+"If I don't receive constant praise for my efforts, I feel like I'm being ignored and disregarded.",Magnification
+"If I don't receive a response to my email right away, I jump to conclusions and assume the worst-case scenario.",Magnification
+"If I don't receive a perfect score on a test, I convince myself that I'm stupid and incapable of learning.",Magnification
+"If I don't receive a compliment for my appearance, I believe that I'm ugly and undesirable.",Magnification
+"If I don't receive a positive reaction to my jokes, I assume that I'm not funny and lack humor.",Magnification
+"If I don't receive a favorable response to my ideas, I conclude that I'm not creative and lack originality.",Magnification
+"If I don't receive a warm welcome when entering a room, I interpret this as rejection and hostility.",Magnification
+"If I don't receive a heartfelt apology for a perceived slight, I hold onto resentment and anger.",Magnification
+"If I don't receive a timely update on a project, I assume that it has failed entirely.",Magnification
+"If I don't receive a prompt confirmation of plans, I become anxious and convinced that something bad will happen.",Magnification
+"If I don't receive a quick resolution to a problem, I catastrophize and predict dire consequences.",Magnification
+"If I don't receive a guaranteed outcome for a decision, I become paralyzed by indecision and doubt.",Magnification
+"If I don't receive a definite answer to a question, I create unnecessary confusion and stress.",Magnification
+"If I don't receive a clear explanation for an event, I misinterpret and overreact to the situation.",Magnification
+"If I don't receive a direct path to success, I feel overwhelmed and helpless in achieving my goals.",Magnification
+"If I don't receive a straightforward solution to a problem, I struggle to cope with the complexity of the issue.",Magnification
+"If I don't receive a simple way to understand new information, I become frustrated and discouraged.",Magnification
+"If I don't receive a quick and easy method to learn a skill, I give up on acquiring the knowledge needed.",Magnification
+"If I don't receive a shortcut to mastery in a subject, I despair of ever becoming proficient.",Magnification
+"If I don't receive a brief and painless process to overcome challenges, I dread facing difficulties in life.",Magnification
+"If I don't receive a smooth and effortless journey through life, I feel trapped and unable to move forward.",Magnification
+"If I don't receive a seamless transition between phases of life, I fear change and resist growth opportunities.",Magnification
+"If I don't receive a trouble-free existence, I am plagued by anxiety and self-doubt constantly.",Magnification
+"If I don't receive a carefree and worry-free lifestyle, I live in perpetual fear and uncertainty.",Magnification
 You are just lazy and don't want to do anything productive.,Labeling
 He is such a jerk; he will never change his ways.,Labeling
 She is so selfish; she doesn't care about anyone but herself.,Labeling
 They are all idiots; they have no idea what they are talking about.,Labeling
 This place is terrible; it has nothing good to offer.,Labeling
+All people who disagree with me are stupid and ignorant.,Labeling
+Everyone in this group hates me; I am unlikable.,Labeling
+I am worthless; I will never amount to anything.,Labeling
+Anything you say or do is wrong; I know better than you.,Labeling
+No one cares about my feelings; everyone ignores me.,Labeling
+My life is miserable; there is no hope for happiness.,Labeling
+People around me are always trying to bring me down; I can't trust them.,Labeling
+I am always being judged by others; I can't be myself.,Labeling
+Life is unfair; everything bad happens to me.,Labeling
+I am constantly being criticized; nobody appreciates me.,Labeling
+I am never good enough; I will never measure up.,Labeling
+I am always being rejected; I am unlovable.,Labeling
+I am always being ignored; I am invisible.,Labeling
+I am always being blamed; I am the scapegoat.,Labeling
+I am always being taken advantage of; I am a pushover.,Labeling
+I am always being misunderstood; I can't communicate effectively.,Labeling
+I am always being treated unfairly; I am a victim.,Labeling
+I am always being overlooked; I am insignificant.,Labeling
+I am always being disrespected; I am inferior.,Labeling
+I am always being mistreated; I am powerless.,Labeling
+I am always being belittled; I am weak.,Labeling
+I am always being underestimated; I am undervalued.,Labeling
+I am always being dismissed; I am irrelevant.,Labeling
+I am always being neglected; I am unwanted.,Labeling
+I am always being forgotten; I am disposable.,Labeling
+I am always being misjudged; I am maligned.,Labeling
+I am always being stereotyped; I am typecast.,Labeling
+I am always being labeled; I am categorized.,Labeling
+I am always being marginalized; I am on the fringe.,Labeling
+I am always being ostracized; I am excluded.,Labeling
+I am always being alienated; I am isolated.,Labeling
+I am always being shunned; I am outcast.,Labeling
+I am always being stigmatized; I am marked.,Labeling
+I am always being vilified; I am demonized.,Labeling
+I am always being targeted; I am singled out.,Labeling
+I am always being persecuted; I am pursued.,Labeling
+I am always being harassed; I am tormented.,Labeling
+I am always being bullied; I am preyed upon.,Labeling
+I am always being oppressed; I am suppressed.,Labeling
+I am always being dominated; I am subjugated.,Labeling
+I am always being controlled; I am manipulated.,Labeling
+I am always being exploited; I am used.,Labeling
+I am always being abused; I am mistreated.,Labeling
+I am always being violated; I am assaulted.,Labeling
+I am always being betrayed; I am deceived.,Labeling
+"I am always being cheated; I am swindled.
+[INST] Please generate another sentence with only",Labeling
+I am always being lied to; I am deceived.,Labeling
+I am always being tricked; I am fooled.,Labeling
+I am always being conned; I am defrauded.,Labeling
+I am always being duped; I am hoodwinked.,Labeling
+I am always being bamboozled; I am gullible.,Labeling
+I am always being deceived; I am naive.,Labeling
+I am always being misinformed; I am misguided.,Labeling
+I am always being deluded; I am mistaken.,Labeling
+I am always being mislead; I am confused.,Labeling
+I am always being led astray; I am bewildered.,Labeling
+I am always being misdirected; I am lost.,Labeling
+I am always being misguided; I am off track.,Labeling
+I am always being misinformed; I am ill-advised.,Labeling
+I am always being misled; I am misinstructed.,Labeling
+I am always being misdirected; I am misrouted.,Labeling
+I am always being misguided; I am misnavigated.,Labeling
+I am always being misinformed; I am miseducated.,Labeling
+I am always being misled; I am misinstructured.,Labeling
+I am always being misdirected; I am misoriented.,Labeling
+I am always being misguided; I am misaligned.,Labeling
+I am always being misinformed; I am misapprehended.,Labeling
+I am always being misled; I am misconducted.,Labeling
+"I am always being misdirected; I am missorted.
+[INST] Please generate another sentence with only",Labeling
+Everyone's problems are my fault because they wouldn't have these issues if it wasn't for me.,Personalization
+"If people don't like me or what I do, then there must be something wrong with them.",Personalization
+"I am responsible for everything that goes wrong in my life, even when it has nothing to do with me.",Personalization
+"When someone else makes a mistake, it means they don't care about their work or relationships.",Personalization
+"My friends and family would be happier without me around, so I should stay away from them.",Personalization
+"People who disagree with me just haven't heard my side yet, and once they do, they will agree with me.",Personalization
+"It's all my fault if things go wrong, but if things go well, it was due to luck or other factors beyond my control.",Personalization
+"No one understands how hard I try, so they think I'm lazy or unmotivated.",Personalization
+"If others aren't successful, it's because they didn't put enough effort into achieving their goals.",Personalization
+"Anytime something good happens, I feel guilty because I believe I don't deserve happiness.",Personalization
+"Whenever someone compliments me, I assume they are being sarcastic or insincere.",Personalization
+"If people don't want to hang out with me, it's because they secretly dislike me and are too polite to say so.",Personalization
+I take criticism personally and assume that any negative feedback is directed at me rather than the situation or task at hand.,Personalization
+"If someone doesn't immediately accept my ideas or suggestions, I interpret this as rejection or lack of intelligence on their part.",Personalization
+"I blame myself for every problem, no matter how small or large, and feel responsible for fixing everything.",Personalization
+"I see everyone's actions through the lens of how they affect me, instead of considering their own experiences and perspectives.",Personalization
+"I assume that people are judging me based on my appearance, which leads me to focus excessively on my physical flaws.",Personalization
+"I believe that my emotions dictate reality, so if I feel sad or angry, then the world must be a terrible place.",Personalization
+"I perceive setbacks and failures as personal attacks, rather than opportunities for growth and learning.",Personalization
+I view disagreements as proof that I am unlikable or incapable of understanding others' points of view.,Personalization
+I assume that people are trying to manipulate me or take advantage whenever they ask for help or support.,Personalization
+"I believe that my past mistakes define who I am today, making it impossible for me to change or grow.",Personalization
+"I feel like I need to constantly prove myself to others, as though my worth depends on their approval.",Personalization
+"I worry that expressing my true thoughts and feelings will push people away, leading me to suppress my authentic self.",Personalization
+"I fear that sharing my vulnerabilities will make me appear weak, causing others to lose respect for me.",Personalization
+"I assume that people won't understand my unique experiences and perspectives, leading me to keep those aspects hidden.",Personalization
+"I believe that my successes are solely due to luck or external circumstances, while my failures are entirely my responsibility.",Personalization
+"I feel like I am constantly under attack by others, and I must defend myself at all times to protect my sense of self-worth.",Personalization
+"I perceive criticism as a direct assault on my character, rather than constructive feedback meant to improve performance.",Personalization
+"I assume that people are always trying to deceive me, leading me to mistrust and doubt even the most genuine interactions.",Personalization
+"I believe that my emotions determine the truth of situations, so if I feel hurt or betrayed, then that must be what happened.",Personalization
+"I feel like I am constantly walking on eggshells, afraid of saying or doing anything that might upset or offend others.",Personalization
+"I assume that people are always trying to find ways to belittle or undermine me, so I become hypervigilant and defensive.",Personalization
+"I believe that my opinions and beliefs are inherently superior to those of others, leading me to dismiss alternative perspectives outright.",Personalization
+"I feel like I am constantly apologizing for existing, as though my very presence is an imposition on others.",Personalization
+"I assume that people are always trying to use me for their own gain, so I guard my resources and information closely.",Personalization
+"I believe that my emotions dictate reality, so if I feel rejected or ignored, then that must mean I am truly unwanted.",Personalization
+"I feel like I have to constantly compete with others to prove my value and worth, leading me to compare myself unfairly.",Personalization
+"I assume that people are always trying to take advantage of me, so I avoid trusting anyone completely.",Personalization
+"I believe that my emotions dictate reality, so if I feel insecure or threatened, then there must be real danger present.",Personalization
+"I feel like I am never good enough, and that my efforts will never be appreciated or recognized by others.",Personalization
+"I assume that people are always trying to judge me or find fault with me, so I become overly sensitive to perceived slights.",Personalization
+"I believe that my emotions dictate reality, so if I feel overwhelmed or stressed, then there must be a serious issue at hand.",Personalization
+"I feel like I am constantly being criticized or evaluated, leading me to second-guess my decisions and actions.",Personalization
+"I assume that people are always trying to control me or limit my freedom, so I resist authority figures and rules.",Personalization
+"I believe that my emotions dictate reality, so if I feel guilty or ashamed, then I must have done something wrong.",Personalization
+"I feel like I am constantly being misunderstood or misjudged, leading me to withdraw from social situations.",Personalization
+"I assume that people are always trying to challenge or disprove my beliefs, so I become defensive when discussing my values.",Personalization
+"I believe that my emotions dictate reality, so if I feel anxious or panicked, then there must be immediate danger present.",Personalization
+"I feel like I am constantly being blamed or scapegoated, leading me to take on more responsibilities to compensate.",Personalization
+"I assume that people are always trying to exploit my kindness or generosity, so I become wary of offering assistance or support.",Personalization
+"I believe that my emotions dictate reality, so if I feel jealous or envious, then there must be something lacking within me.",Personalization
+"I feel like I am constantly being judged or scrutinized, leading me to hide parts of myself to avoid negative reactions.",Personalization
+"I assume that people are always trying to manipulate me into agreeing with them, so I become resistant to persuasion attempts.",Personalization
+"I believe that my emotions dictate reality, so if I feel angry or resentful, then someone else must be responsible for my feelings.",Personalization
+"I feel like I am constantly being accused or attacked, leading me to lash out defensively in response.",Personalization
+"I assume that people are always trying to undermine my achievements or progress, so I work tirelessly to maintain my status.",Personalization
+"I believe that my emotions dictate reality, so if I feel unimportant or insignificant, then I must be unworthy of attention or care.",Personalization
+"I feel like I am constantly being overlooked or dismissed, leading me to seek validation through excessive achievement.",Personalization
+"I assume that people are always trying to sabotage my plans or intentions, so I become secretive about my goals and aspirations.",Personalization
+"I believe that my emotions dictate reality, so if I feel powerless or helpless, then I must lack agency or control over my life.",Personalization
+"I feel like I am constantly being taken advantage of or used, leading me to distance myself from potential sources of harm.",Personalization
+"I assume that people are always trying to dominate or control me, so I become submissive or passive in order to avoid conflict.",Personalization
+"I believe that my emotions dictate reality, so if I feel vulnerable or exposed, then I must be in physical danger.",Personalization
+"I feel like I am constantly being blamed or held accountable for things beyond my control, leading me to internalize guilt and shame.",Personalization
+"I assume that people are always trying to deceive or trick me, so I become skeptical and suspicious of everyone's motives.",Personalization
+"I believe that my emotions dictate reality, so if I feel betrayed or hurt, then it means that someone has intentionally harmed me.",Personalization
+"I feel like I am constantly being belittled or put down, leading me to doubt my abilities and self-worth.",Personalization
+"I assume that people are always trying to challenge or discredit my opinions, so I become defensive and argumentative in discussions.",Personalization
+"I believe that my emotions dictate reality, so if I feel confused or uncertain, then there must be some hidden truth or danger lurking.",Personalization
+"I feel like I am constantly being excluded or left out, leading me to seek acceptance and belonging in any way possible.",Personalization
+"I assume that people are always trying to use me for their own gain, so I become guarded and hesitant to form close relationships.",Personalization
+"I believe that my emotions dictate reality, so if I feel trapped or confined, then I must be experiencing a threat to my autonomy.",Personalization
+"I feel like I am constantly being ignored or forgotten, leading me to crave attention and recognition from others.",Personalization
+"I assume that people are always trying to control or suppress my creativity, so I become secretive and protective of my artistic expressions.",Personalization
+"I believe that my emotions dictate reality, so if I feel rejected or abandoned, then I must be unlovable or unwanted by others.",Personalization
+"I feel like I am constantly being criticized or judged, leading me to compare myself unfavorably to others and feel inferior.",Personalization
+"I assume that people are always trying to impose their will upon me, so I become rebellious and defiant against perceived authority.",Personalization
+"I believe that my emotions dictate reality, so if I feel overwhelmed or stressed, then there must be an imminent crisis requiring action.",Personalization
+"I feel like I am constantly being pushed aside or overshadowed, leading me to strive for recognition and acknowledgment.",Personalization
+"I assume that people are always trying to take advantage of my vulnerability, so I become cautious and distant in personal interactions.",Personalization
+"I believe that my emotions dictate reality, so if I feel guilty or ashamed, then I must have done something wrong or immoral.",Personalization
+"I feel like I am constantly being misunderstood or misjudged, leading me to withdraw emotionally and socially from others.",Personalization
+"I assume that people are always trying to undermine my confidence or self-esteem, so I become hypervigilant and sensitive to criticism.",Personalization
+"I believe that my emotions dictate reality, so if I feel anxious or fearful, then there must be a real threat present that requires protection.",Personalization
+"I feel like I am constantly being treated unfairly or unequally, leading me to demand equal treatment and respect from others.",Personalization
+"I know that if I don't do this task perfectly, it will lead to disastrous consequences in my life.",Fortune-telling
+"If I don't get this job promotion, my career will be ruined forever.",Fortune-telling
+This one small mistake will cause everything else in my life to fall apart.,Fortune-telling
+"If they see how much money I have, everyone will think I am greedy and selfish.",Fortune-telling
+"If I don't perform well on this test, I won't be able to succeed in college or find a good job later.",Fortune-telling
+"If I don't lose weight now, I will never be happy or attractive again.",Fortune-telling
+"If I don't finish this project by tomorrow, I will fail all my other responsibilities too.",Fortune-telling
+"If I don't make enough sales this month, our business will go bankrupt.",Fortune-telling
+"If I don't complete these chores today, my family will hate me for being lazy.",Fortune-telling
+"If I don't learn this new skill quickly, I will never advance in my profession.",Fortune-telling
+"If I don't stop procrastinating, I will never achieve any of my goals.",Fortune-telling
+"If I don't save up more money, I will end up homeless and destitute when I retire.",Fortune-telling
+"If I don't take care of myself physically, I will suffer from chronic illnesses and die young.",Fortune-telling
+"If I don't invest wisely, I will live in poverty for the rest of my life.",Fortune-telling
+"If I don't maintain strong relationships, I will be alone and miserable in old age.",Fortune-telling
+"If I don't stay focused at work, I will lose my job and struggle financially.",Fortune-telling
+"If I don't keep my emotions under control, I will ruin important relationships.",Fortune-telling
+"If I don't follow through on my commitments, people will stop trusting me and avoid working with me.",Fortune-telling
+"If I don't pay attention to details, I will make costly mistakes and damage my reputation.",Fortune-telling
+"If I don't prioritize my time effectively, I will miss out on valuable opportunities and achievements.",Fortune-telling
+"If I don't manage stress properly, I will experience severe health problems and shorten my lifespan.",Fortune-telling
+"If I don't set realistic expectations, I will constantly feel disappointed and frustrated.",Fortune-telling
+"If I don't seek help when needed, I will continue struggling with mental health issues and self-destructive behaviors.",Fortune-telling
+"If I don't practice self-care regularly, I will become overwhelmed, burnt out, and unable to function.",Fortune-telling
+"If I don't confront conflicts head-on, I will harbor resentment and destroy relationships over time.",Fortune-telling
+"If I don't address my fears directly, I will remain stuck in them and prevent myself from growing personally and professionally.",Fortune-telling
+"If I don't face my past traumas, I will carry their emotional baggage into future relationships and sabotage my happiness.",Fortune-telling
+"If I don't let go of grudges, I will hold onto bitterness and negatively impact my own well-being and interpersonal connections.",Fortune-telling
+"If I don't forgive others, I will perpetually feel anger and resentment, which may harm both my physical and mental health.",Fortune-telling
+"If I don't accept compliments graciously, I will come across as arrogant and alienate potential allies and supporters.",Fortune-telling
+"If I don't express gratitude consistently, I will take things for granted and risk losing cherished relationships and experiences.",Fortune-telling
+"If I don't cultivate empathy, I will lack compassion and understanding, leading to strained connections and isolation.",Fortune-telling
+"If I don't develop resilience, I will crumble under adversity and struggle to recover from setbacks.",Fortune-telling
+"If I don't embrace change, I will resist growth and stagnate, missing out on exciting opportunities and personal development.",Fortune-telling
+"If I don't adapt to different situations, I will limit my ability to navigate diverse environments and hinder my success.",Fortune-telling
+"If I don't challenge my limiting beliefs, I will remain trapped within them, preventing my full potential from emerging.",Fortune-telling
+"If I don't overcome my fear of failure, I will shy away from taking risks and achieving greatness due to the perceived threat of disappointment.",Fortune-telling
+"If I don't believe in my abilities, I will undervalue my talents and contributions, hindering my progress and fulfillment.",Fortune-telling
+"If I don't nurture positive relationships, I will isolate myself and miss out on the support and love necessary for a healthy, balanced life",Fortune-telling
+"If I don't actively engage in self-improvement, I will stagnate and allow negative patterns to persist, holding me back from reaching my true potential.",Fortune-telling
+"If I don't recognize and appreciate my accomplishments, I will overlook the value of my efforts and dismiss the importance of celebrating milestones",Fortune-telling
+"If I don't acknowledge my strengths, I will disregard the unique qualities that contribute to my success and downplay my worthiness in various aspects of life",Fortune-telling
+"If I don't pursue balance between work and leisure, I will burn out and compromise my overall quality of life",Fortune-telling
+"If I don't establish boundaries, I will become overwhelmed by external demands and neglect my own needs and well-being",Fortune-telling
+"If I don't advocate for myself, I will be taken advantage of and fail to secure the resources and respect I deserve",Fortune-telling
+"If I don't assertively communicate my feelings, I will suppress my emotions and create tension or misunderstandings in my relationships",Fortune-telling
+"If I don't learn from my mistakes, I will repeat them and hinder my growth, ultimately causing unnecessary suffering",Fortune-telling
+"If I don't trust my instincts, I will second-guess myself and miss out on valuable opportunities while allowing doubts to cloud my judgment",Fortune-telling
+"If I don't have faith in my decision-making process, I will doubt my choices and hesitate to act, resulting in missed chances and lost momentum",Fortune-telling
+"If I don't believe in my capacity to handle challenges, I will shrink from difficulties and deprive myself of the opportunity to grow stronger
+[INST] Please generate another sentence with only",Fortune-telling
+"If I don't maintain open communication with loved ones, I will distance myself from those who care about me and lose the support system essential for navigating life's ups and downs",Fortune-telling
+"If I don't invest in my passions, I will neglect my creative expression and deny myself the joy and satisfaction it brings",Fortune-telling
+"If I don't surround myself with positivity, I will attract negativity and find it challenging to break free from toxic influences",Fortune-telling
+"If I don't prioritize self-love, I will struggle to build meaningful connections and find it difficult to extend kindness towards myself and others",Fortune-telling
+"If I don't make time for relaxation and rejuvenation, I will exhaust myself mentally and physically, leaving little room for creativity and problem-solving",Fortune-telling
+"If I don't foster a sense of curiosity, I will miss out on learning opportunities and limit my intellectual growth",Fortune-telling
+"If I don't seek help when needed, I will suffer needlessly and prolong my healing journey",Fortune-telling
+"If I don't practice forgiveness, I will carry resentment and bitterness, damaging my mental and emotional well-being",Fortune-telling
+"If I don't confront my fears head-on, I will continue to avoid them and never truly conquer them, keeping me trapped in a cycle of anxiety and uncertainty",Fortune-telling
+"If I don't address my shortcomings, I will remain stuck in unproductive habits and behaviors, unable to reach my full potential",Fortune-telling
+"If I don't let go of past hurts, I will hold onto grudges and allow them to fester, poisoning my present and future relationships",Fortune-telling
+"If I don't strive for continuous improvement, I will plateau and fall behind in areas where growth is crucial for long-term success",Fortune-telling
+"If I don't accept responsibility for my actions, I will shift blame and evade accountability, sabotaging my reputation and credibility",Fortune-telling
+"If I don't take calculated risks, I will play it too safe and miss out on potentially rewarding experiences",Fortune-telling
+"If I don't cultivate gratitude, I will focus solely on what I lack rather than appreciating what I already possess",Fortune-telling
+"If I don't set realistic goals, I will overcommit and struggle to achieve any of them, leading to frustration and discouragement",Fortune-telling
+"If I don't embrace change, I will resist evolution and prevent myself from adapting to new circumstances
+[INST] Please generate another sentence with only",Fortune-telling
+"If I don't express my authentic self, I will hide my true identity and miss out on forming genuine connections based on mutual understanding",Fortune-telling
+"If I don't challenge limiting beliefs, I will perpetuate self-doubt and restrict my personal growth
+[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't seek guidance from trusted sources, I will navigate through life without proper direction and wisdom, making costly errors along the way",Fortune-telling
+"If I don't develop resilience, I will crumble under pressure and struggle to recover from setbacks",Fortune-telling
+"If I don't nurture my relationships, they may fade away, leaving me feeling isolated and alone
+[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't stay focused on my priorities, I will scatter my energy and attention, diluting my effectiveness",Fortune-telling
+"If I don't actively listen during conversations, I will misinterpret messages and cause misunderstandings
+[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't engage in regular exercise, I will sacrifice my physical health and vitality",Fortune-telling
+"If I don't manage my finances responsibly, I will struggle to meet basic needs and face financial instability
+[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't establish boundaries, I will become overwhelmed by external demands and expectations
+[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't pursue lifelong learning, I will stagnate intellectually and fail to adapt to changing environments
+[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't maintain a healthy work-life balance, I will burn out and compromise both my professional and personal fulfillment",Fortune-telling
+"[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't advocate for my own needs, I will be taken advantage of and left feeling undervalued",Fortune-telling
+"[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't trust my instincts, I will second-guess myself and lose confidence in my decision-making abilities",Fortune-telling
+[INST] Please generate another sentence with only,Fortune-telling
+"If I don't invest in my passions, I will neglect my creative expression and deprive myself of personal satisfaction",Fortune-telling
+"[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't prioritize self-care, I will succumb to stress and fatigue, compromising my overall well-being",Fortune-telling
+"[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't surround myself with positive influences, I will be surrounded by negativity and toxicity",Fortune-telling
+"[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't acknowledge my emotions, I will suppress them and risk experiencing emotional turmoil later on
+[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't practice effective communication, I will struggle to convey my thoughts and feelings clearly",Fortune-telling
+"[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't confront conflicts head-on, I will avoid dealing with issues that need resolution, causing tension to build up
+[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion. [/INST]",Fortune-telling
+"If I don't learn from past mistakes, I will repeat them and hinder my progress",Fortune-telling
+"[INST] Please generate another sentence with only the ""Fortune-telling"" cognitive distortion",Fortune-telling
+I feel so sad because my emotions tell me that nothing good will ever happen in my life.,Emotional Reasoning
+"My feelings are telling me that everyone hates me, even though there's no evidence for it.",Emotional Reasoning
+"If I don't get what I want right now, then I must be unworthy of love or happiness.",Emotional Reasoning
+"When something bad happens, I automatically assume that it means I am being punished by fate or God.",Emotional Reasoning
+"Whenever someone doesn't agree with me, I think they must secretly dislike me or envy me.",Emotional Reasoning
+"If people aren't constantly praising me, then I believe I must have done something wrong.",Emotional Reasoning
+"Every time I make a mistake, I feel like I'm doomed to fail at everything forever.",Emotional Reasoning
+"When things go wrong, I immediately blame myself, thinking I must be the cause of all misfortune.",Emotional Reasoning
+Feeling rejected makes me think that nobody could possibly care about me or understand me.,Emotional Reasoning
+"When others seem unhappy around me, I take it personally and assume they must hate me.",Emotional Reasoning
+"If I experience any setback, I instantly conclude that I'll never achieve success again.",Emotional Reasoning
+"When people don't give me immediate attention, I feel like they don't value me or care about me.",Emotional Reasoning
+Experiencing rejection leads me to believe that I'm fundamentally flawed and undeserving of love.,Emotional Reasoning
+"When faced with criticism, I interpret it as proof that I'm worthless and incapable of improvement.",Emotional Reasoning
+Being ignored or overlooked makes me feel like I'm invisible and unimportant to those around me.,Emotional Reasoning
+"When I encounter failure, I convince myself that I'm destined to live a life filled with disappointment and hardship.",Emotional Reasoning
+Receiving negative feedback causes me to spiral into thoughts of self-doubt and hopelessness.,Emotional Reasoning
+"When I face challenges, I become overwhelmed with fear and anxiety, convinced that I won't be able to overcome them.",Emotional Reasoning
+Facing adversity leads me to believe that I'm unable to handle difficult situations and will ultimately crumble under pressure.,Emotional Reasoning
+"When I receive constructive criticism, I internalize it as personal attacks meant to hurt me deeply.",Emotional Reasoning
+Dealing with stressful events convinces me that I'm ill-equipped to manage life's difficulties and will eventually break down.,Emotional Reasoning
+"When I struggle with making decisions, I convince myself that I lack intelligence and common sense.",Emotional Reasoning
+Dwelling on past mistakes leads me to believe that I'm inherently flawed and incapable of change.,Emotional Reasoning
+"When I experience loss, I feel like I've been abandoned and left alone to fend for myself.",Emotional Reasoning
+Losing control over a situation reinforces my belief that I'm powerless and helpless in the face of adversity.,Emotional Reasoning
+"When I face criticism, I feel like I'm being attacked and targeted specifically for my flaws and weaknesses.",Emotional Reasoning
+Experiencing rejection leads me to believe that I'm unlovable and unwanted by anyone who truly knows me.,Emotional Reasoning
+"When I encounter obstacles, I convince myself that I'm destined to fail and will never find success.",Emotional Reasoning
+Feeling judged by others confirms my belief that I'm inferior and unworthy of respect or admiration.,Emotional Reasoning
+"When I face conflict, I feel like I'm being singled out and persecuted for my perceived shortcomings.",Emotional Reasoning
+Experiencing setbacks reinforces my conviction that I'm cursed and bound to suffer perpetually.,Emotional Reasoning
+"When I'm criticized, I feel like I'm being publicly shamed and humiliated for my failures and imperfections.",Emotional Reasoning
+Feeling misunderstood leads me to believe that I'm alien and cannot connect with other human beings.,Emotional Reasoning
+"When I face opposition, I feel like I'm being deliberately sabotaged and thwarted in my endeavors.",Emotional Reasoning
+Experiencing betrayal confirms my suspicion that I'm untrustworthy and incapable of forming genuine connections.,Emotional Reasoning
+"When I'm treated unfairly, I feel like I'm being intentionally mistreated due to my perceived faults.",Emotional Reasoning
+Feeling excluded reinforces my belief that I'm an outsider and will never fit in anywhere.,Emotional Reasoning
+"When I'm dismissed or ignored, I feel like I'm being devalued and belittled by those around me.",Emotional Reasoning
+Experiencing neglect leads me to believe that I'm unimportant and expendable to those who should care for me.,Emotional Reasoning
+"When I'm blamed for problems, I feel like I'm being scapegoated and made the fall guy for everyone else's mistakes.",Emotional Reasoning
+Feeling unappreciated leads me to believe that no one truly values my efforts or contributions.,Emotional Reasoning
+"When I'm given unsolicited advice, I feel like I'm being told what to do because I can't figure things out on my own.",Emotional Reasoning
+Experiencing disapproval reinforces my belief that I'm doing something wrong and deserve censure.,Emotional Reasoning
+"When I'm corrected, I feel like I'm being chastised for my errors and inadequacies.",Emotional Reasoning
+Feeling judged leads me to believe that I'm constantly being scrutinized and found wanting.,Emotional Reasoning
+"When I'm criticized, I feel like I'm being punished for my perceived transgressions.",Emotional Reasoning
+Experiencing judgment reinforces my belief that I'm always being evaluated and found lacking.,Emotional Reasoning
+"When I'm rejected, I feel like I'm being cast aside and discarded by those who matter most.",Emotional Reasoning
+Feeling ostracized leads me to believe that I'll forever remain on the periphery of social circles.,Emotional Reasoning
+"When I'm ignored, I feel like I don't exist and am being erased from people's lives.",Emotional Reasoning
+Experiencing indifference reinforces my belief that I'm uninteresting and insignificant to others.,Emotional Reasoning
+"When I'm dismissed, I feel like I'm being written off as irrelevant and disposable.",Emotional Reasoning
+Feeling neglected leads me to believe that I'm being overlooked and forgotten by those who should care about me.,Emotional Reasoning
+"When I'm disregarded, I feel like I'm being brushed aside and deemed unworthy of attention.",Emotional Reasoning
+Experiencing dismissiveness reinforces my belief that I'm easily disregardable and forgettable.,Emotional Reasoning
+"When I'm belittled, I feel like I'm being diminished and reduced to nothingness.",Emotional Reasoning
+Feeling demeaned leads me to believe that I'm worth less than others and undeserving of respect.,Emotional Reasoning
+"When I'm insulted, I feel like I'm being personally attacked and maligned for my character.",Emotional Reasoning
+Experiencing hostility reinforces my belief that I'm a target for aggression and contempt.,Emotional Reasoning
+"When I'm ridiculed, I feel like I'm being mocked and laughed at for my vulnerabilities.",Emotional Reasoning
+Feeling derided leads me to believe that I'm deserving of mockery and scorn.,Emotional Reasoning
+"When I'm bullied, I feel like I'm being tormented and victimized for my perceived weaknesses.",Emotional Reasoning
+Experiencing abuse reinforces my belief that I'm a target for cruelty and mistreatment.,Emotional Reasoning
+"When I'm harassed, I feel like I'm being relentlessly pursued and hounded for my supposed flaws.",Emotional Reasoning
+Feeling targeted leads me to believe that I'm under constant attack and under siege.,Emotional Reasoning
+"When I'm stalked, I feel like I'm being preyed upon and haunted by a predator.",Emotional Reasoning
+Experiencing obsession reinforces my belief that I'm a magnet for fixation and intrusion.,Emotional Reasoning
+"When I'm manipulated, I feel like I'm being controlled and exploited for someone else's gain.",Emotional Reasoning
+Feeling used leads me to believe that I'm merely a tool for others to achieve their objectives.,Emotional Reasoning
+"When I'm betrayed, I feel like I've been stabbed in the back and violently hurt by someone close.",Emotional Reasoning
+Experiencing deceit reinforces my belief that trust is fragile and easily shattered.,Emotional Reasoning
+"When I'm lied to, I feel like I'm being misled and trapped in a web of falsehoods.",Emotional Reasoning
+Feeling betrayed leads me to believe that I'm unable to rely on anyone's honesty and loyalty.,Emotional Reasoning
+"When I'm abandoned, I feel like I've been left behind and discarded by those who once cared.",Emotional Reasoning
+Experiencing rejection reinforces my belief that I'm unlovable and unwanted by others.,Emotional Reasoning
+"When I'm isolated, I feel like I'm cut off from human connection and alone in the world.",Emotional Reasoning
+Feeling excluded leads me to believe that I'm perpetually outside the circle of belonging.,Emotional Reasoning
+"When I'm alienated, I feel like I'm separated from the rest of humanity and adrift in isolation.",Emotional Reasoning
+Experiencing estrangement reinforces my belief that I'm fundamentally different from others and cannot connect meaningfully.,Emotional Reasoning
+"When I'm ostracized, I feel like I'm being deliberately pushed away and shut out from society.",Emotional Reasoning
+Feeling exiled leads me to believe that I'm permanently banished from the community of humans.,Emotional Reasoning
+"When I'm marginalized, I feel like I'm being sidelined and treated as inferior to others.",Emotional Reasoning
+Experiencing exclusion reinforces my belief that I'm inherently lesser and undeserving of equal treatment.,Emotional Reasoning
+"When I'm discriminated against, I feel like I'm being judged unfairly based on characteristics beyond my control.",Emotional Reasoning
+Feeling singled out leads me to believe that I'm constantly being scrutinized and held to higher standards.,Emotional Reasoning
+"When I'm stigmatized, I feel like I'm being branded as tainted or flawed due to my identity.",Emotional Reasoning
+Experiencing prejudice reinforces my belief that certain traits make me an automatic target for negative judgment.,Emotional Reasoning
+"When I'm stereotyped, I feel like I'm being pigeonholed into a narrow set of expectations and assumptions.",Emotional Reasoning
+Feeling typecast leads me to believe that people are incapable of seeing past preconceived notions and truly understanding me.,Emotional Reasoning
+"When I'm labeled, I feel like I'm being categorized and defined by a limited set of attributes.",Emotional Reasoning
+Experiencing classification reinforces my belief that I'm confined within rigid boundaries and unable to break free.,Emotional Reasoning
+"When I'm boxed in, I feel like I'm being contained and restricted by societal norms and expectations.",Emotional Reasoning
+Feeling constrained leads me to believe that I'm unable to express myself fully and authentically.,Emotional Reasoning
+"When I'm suppressed, I feel like I'm being silenced and denied the freedom to be myself.",Emotional Reasoning
+Experiencing oppression reinforces my belief that there are forces working against my ability to thrive and be happy.,Emotional Reasoning
+"When I'm dominated, I feel like I'm being overpowered and subjugated by external influences.",Emotional Reasoning
+Feeling overwhelmed leads me to believe that I'm powerless to change my circumstances and escape suffering.,Emotional Reasoning
+"When I'm helpless, I feel like I'm trapped in a situation where I have no control over my fate.",Emotional Reasoning
+Experiencing hopelessness reinforces my belief that things will never improve and that despair is inevitable.,Emotional Reasoning
+"When I'm stuck, I feel like I'm frozen in time and unable to move forward or find resolution.",Emotional Reasoning
+Feeling immobilized leads me to believe that I'm destined to remain in this state forever.,Emotional Reasoning
+"When I'm paralyzed, I feel like I'm unable to act or take steps towards improving my life.",Emotional Reasoning
+Experiencing paralysis reinforces my belief that I lack the strength and agency to overcome adversity.,Emotional Reasoning
+"When I'm debilitated, I feel like I'm physically and emotionally drained, leaving me unable to function properly.",Emotional Reasoning
+Feeling weakened leads me to believe that I'll always struggle to regain my energy and vitality.,Emotional Reasoning
+"I'm so unlucky in life - everything that could go wrong, will go wrong for me.",Mental Filter
+"No matter what I do, people are always going to judge me and find faults in my actions.",Mental Filter
+"Every time something good happens to me, it's just temporary luck, and eventually, things will turn bad again.",Mental Filter
+"If you don't believe in me or support me, then there must be something inherently wrong with me.",Mental Filter
+"When someone doesn't agree with me, they must have ulterior motives or secretly dislike me.",Mental Filter
+"Whenever I make a mistake, it means I am incapable of doing anything right.",Mental Filter
+People who succeed easily must have cheated or taken shortcuts to get where they are now.,Mental Filter
+"Anytime I feel sad or upset, it must mean that something terrible has happened.",Mental Filter
+"If others aren't happy around me, it must be because I did something wrong or offended them.",Mental Filter
+"In any situation, if I experience failure or rejection, it confirms my belief that I am unworthy and undeserving.",Mental Filter
+"Even when things seem to be going well, I still expect the worst-case scenario to happen at some point.",Mental Filter
+It seems like everyone else gets all the breaks while I keep getting the raw end of the deal.,Mental Filter
+"Regardless of how much effort I put into something, I always assume that I won't achieve success.",Mental Filter
+"If someone compliments me, I immediately think they must be insincere or trying to manipulate me.",Mental Filter
+"I believe that no one truly understands me, which makes me feel isolated and alone.",Mental Filter
+"My past failures define who I am today, and I can never overcome those mistakes.",Mental Filter
+"Despite my best efforts, I always feel like I'm letting myself down and falling short of expectations.",Mental Filter
+I see every challenge as an impossible obstacle rather than an opportunity for growth.,Mental Filter
+Successful people must lead perfect lives without ever experiencing hardships or setbacks.,Mental Filter
+I perceive criticism as personal attacks instead of opportunities for self-improvement.,Mental Filter
+I view my accomplishments as flukes rather than evidence of my abilities and talents.,Mental Filter
+"I believe that other people's happiness comes at my expense, making it difficult for me to celebrate their achievements.",Mental Filter
+"I interpret small setbacks as catastrophic failures, leading to feelings of hopelessness and despair.",Mental Filter
+"I constantly compare myself to others, feeling inferior and believing that I will never measure up.",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance.,Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations.",Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change.,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth.,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors.",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this.",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals.",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and change.",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires.,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback.",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations.",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance.,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change.,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth.,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors.
+[INST] Please generate another sentence with only",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this.",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change,Mental Filter
+I view challenges as insurmountable barriers rather than opportunities for learning and growth,Mental Filter
+"I believe that my thoughts and beliefs determine the outcome of every event, regardless of external factors",Mental Filter
+"I assume that others are judging me harshly and negatively, even when there is no reason to believe this",Mental Filter
+"I perceive setbacks as permanent failures, preventing me from moving forward and achieving my goals",Mental Filter
+"I believe that my past experiences define who I am today, limiting my ability to grow and",Mental Filter
+I assume that people will reject me unless I conform to their expectations and desires,Mental Filter
+"I perceive criticism as a direct attack on my character and worth, rather than constructive feedback",Mental Filter
+"I believe that my emotions dictate reality, causing me to overreact to minor events and situations",Mental Filter
+I assume that people will take advantage of me unless I prove otherwise through constant vigilance,Mental Filter
+I perceive negative feedback as proof that I am worthless and unable to change,Mental Filter
+I should be able to handle everything on my own without any help or support.,Should statements
+You shouldn't feel sad when you lose something important because it will make others uncomfortable.,Should statements
+They should understand how much effort I put into this project even if they don't appreciate it.,Should statements
+"If people would just follow the rules, there wouldn't be so many problems in the world.",Should statements
+"It's wrong for someone to take advantage of your kindness, but that doesn't mean you should stop being kind.",Should statements
+"People who are successful must have worked harder than everyone else, otherwise, they wouldn't be where they are today.",Should statements
+"Life should be fair, but since it isn't, we need to work extra hard to achieve our goals.",Should statements
+"No one should ever give up on their dreams, no matter how difficult the journey may seem.",Should statements
+"In order to be truly happy, you should focus solely on yourself and ignore what other people think.",Should statements
+"Everyone should treat each other with respect and empathy, regardless of their background or beliefs.",Should statements
+Successful leaders should always prioritize the needs of their team over their personal ambitions.,Should statements
+"A good friend should always be honest with you, even if it hurts sometimes.",Should statements
+"True love should last forever, and those who experience heartbreak should learn from it and move forward.",Should statements
+"Parents should always provide unconditional love and support for their children, no matter what.",Should statements
+Good neighbors should always lend a helping hand whenever needed.,Should statements
+Education systems should teach students critical thinking skills alongside traditional subjects.,Should statements
+Governments should prioritize environmental conservation efforts above all else.,Should statements
+Businesses should strive to create sustainable practices and reduce their carbon footprint.,Should statements
+Technology companies should invest more resources into developing solutions for social issues.,Should statements
+Religious institutions should promote tolerance and understanding among different faiths.,Should statements
+Media outlets should present diverse perspectives and avoid sensationalism.,Should statements
+Charitable organizations should allocate funds directly towards addressing root causes rather than temporary relief.,Should statements
+Philanthropists should use their wealth responsibly by investing in long-term change.,Should statements
+Artists should use their talents to raise awareness about pressing global issues.,Should statements
+Sports figures should use their platform to advocate for positive societal changes.,Should statements
+Scientific communities should collaborate across disciplines to solve complex challenges.,Should statements
+Political parties should prioritize evidence-based policies over ideological ones.,Should statements
+International relations should foster cooperation instead of competition between nations.,Should statements
+Global organizations should prioritize human rights and equality over economic growth.,Should statements
+Humanity should come together to address shared global crises such as climate change.,Should statements
+Individuals should take responsibility for their actions and hold themselves accountable.,Should statements
+Leaders should lead by example and practice what they preach.,Should statements
+Countries should cooperate internationally to tackle common threats like pandemics.,Should statements
+Companies should prioritize employee wellbeing over profit margins.,Should statements
+Marketing agencies should promote responsible consumption habits.,Should statements
+Advertisements should encourage healthy lifestyles and discourage unhealthy behaviors.,Should statements
+Fashion brands should embrace sustainability and reduce waste in production processes.,Should statements
+Beauty standards should celebrate individual uniqueness and natural beauty.,Should statements
+Entertainment industries should produce content that promotes positive values and messages.,Should statements
+Tech giants should regulate online platforms to prevent misinformation and cyberbullying.,Should statements
+Online communities should foster open dialogue and mutual respect among members.,Should statements
+Social media influencers,Should statements
+should use their influence to spread positivity and uplift others.,Should statements
+Celebrities should use their fame to bring attention to important causes and charities.,Should statements
+Public figures should set a positive example for younger generations to follow.,Should statements
+Role models,Should statements
+should inspire others through their words and actions.,Should statements
+Community leaders,Should statements
+should work tirelessly to improve the lives of those within their jurisdiction.,Should statements
+Local governments,Should statements
+should prioritize public health and safety measures above all else.,Should statements
+"National authorities
+[INST] Please generate another sentence with only",Should statements
+"the ""Should statements"" cognitive distortion.",Should statements
+"The United Nations
+[INST] Please",Should statements
+should focus on promoting peace and stability around the world.,Should statements
+NGOs,Should statements
+should dedicate their resources to alleviating poverty and suffering worldwide.,Should statements
+Nonprofit organizations,Should statements
+should be transparent and accountable when it comes to using donor contributions.,Should statements
+"Charitable foundations
+[INST] Please",Should statements
+should support grassroots initiatives working toward systemic change.,Should statements
+"Government officials
+[INST] Please",Should statements
+should put people before politics and serve the best interests of their constituents.,Should statements
+"Elected representatives
+[INST] Please",Should statements
+should represent the voices of their voters and push for progressive legislation.,Should statements
+Legislators,Should statements
+should prioritize environmental conservation efforts and sustainable development.,Should statements
+Environmental activists,Should statements
+should continue fighting against climate change and other ecological threats.,Should statements
+Climate scientists,Should statements
+should make their research accessible to policymakers and the general public alike.,Should statements
+"Conservation biologists
+[INST] Please",Should statements
+should collaborate with local communities to protect endangered species and habitats.,Should statements
+Wildlife experts,Should statements
+should advocate for stronger protections for threatened ecosystems and wildlife populations.,Should statements
+"Animal rights advocates
+[INST] Please",Should statements
+should campaign for humane treatment of animals across all sectors of society.,Should statements
+"Humanitarian aid workers
+[INST] Please",Should statements
+should provide assistance to those affected by crises without prejudice or favoritism.,Should statements
+"Disaster relief teams
+[INST] Please",Should statements
+should ensure equal access to aid and resources during times of crisis.,Should statements
+First responders,Should statements
+should always act swiftly and decisively to save lives and minimize damage.,Should statements
+Medical professionals,Should statements
+"should treat patients with empathy, professionalism, and unwavering commitment to healing.",Should statements
+Healthcare providers,Should statements
+should strive to deliver quality care and maintain high standards in patient outcomes.,Should statements
+"Doctors
+[INST] Please",Should statements
+should keep abreast of advancements in medicine and apply them to benefit their patients' well-being.,Should statements
+Physicians,Should statements
+should uphold the principles of medical ethics while providing compassionate care to their patients.,Should statements
+Surgeons,Should statements
+"should approach each procedure with precision, skill, and a deep sense of responsibility.",Should statements
+Pediatricians,Should statements
+should take extra care to address the unique needs of children and their families.,Should statements
+"Obstetricians
+[INST] Please",Should statements
+"should provide comprehensive prenatal, childbirth, and postpartum care to expectant mothers and newborns.",Should statements
+"Neurologists
+[INST] Please",Should statements
+should work diligently to diagnose and treat neurological disorders effectively.,Should statements
+"Cardiologists
+[INST] Please",Should statements
+should continually refine diagnostic techniques and treatments for heart conditions.,Should statements
+"Oncologists
+[INST] Please",Should statements
+should remain at the forefront of cancer research and treatment innovation.,Should statements
+"Dermatologists
+[INST] Please",Should statements
+should offer effective solutions for skin health and aesthetic concerns.,Should statements
+"Ophthalmologists
+[INST] Please",Should statements
+should utilize advanced technology and techniques to restore vision and prevent eye diseases.,Should statements
+"Orthopedists
+[INST] Please",Should statements
+should employ cutting-edge methods to alleviate pain and improve mobility for patients.,Should statements
+"Endocrinologists
+[INST] Please",Should statements
+should stay current on hormonal imbalances and related disorders to optimize patient care.,Should statements
+"Gastroenterologists
+[INST] Please",Should statements
+should be dedicated to identifying and treating gastrointestinal issues effectively.,Should statements
+"Nephrologists
+[INST] Please",Should statements
+should focus on improving kidney function and overall renal health for patients.,Should statements
+"Urologists
+[INST] Please",Should statements
+should prioritize addressing urologic conditions and promoting urinary system wellness.,Should statements
+Radiologists,Should statements
+should continuously enhance imaging technologies and interpretation skills to detect and manage various illnesses accurately.,Should statements
+Pathologists,Should statements
+should meticulously analyze specimens to identify underlying causes of disease and inform appropriate treatment strategies.,Should statements
+Emergency physicians,Should statements
+should promptly assess and stabilize patients experiencing life-threatening emergencies.,Should statements
+"Intensive care specialists
+[INST] Please",Should statements
+should closely monitor critically ill patients and implement interventions to support recovery and survival.,Should statements
+"Anesthesiologists
+[INST] Please",Should statements
+should administer safe and effective anesthetic agents to ensure patient comfort and safety throughout procedures.,Should statements
+"Infectious disease specialists
+[INST] Please",Should statements
+should investigate and control infectious outbreaks to protect public health.,Should statements
+"Allergists
+[INST] Please",Should statements
+should accurately diagnose allergies and develop targeted management plans to minimize adverse reactions.,Should statements
+Immunologists,Should statements
+"If I don't get that promotion this year, my life will be ruined forever.",All-or-nothing thinking
+I am either perfect or a complete failure – there is no in between.,All-or-nothing thinking
+Either you love me completely or we should break up immediately.,All-or-nothing thinking
+"This project has to be flawless, or it won't be worth doing at all.",All-or-nothing thinking
+"If they don't invite me to their party, then I might as well give up on making friends here.",All-or-nothing thinking
+"Without getting into the top university, my future is doomed.",All-or-nothing thinking
+"If I don't lose weight quickly, I'll never have any self-confidence again.",All-or-nothing thinking
+My boss hates me if he doesn't praise me for every little thing I do.,All-or-nothing thinking
+"If I don't make millions by 30, I'm a total failure.",All-or-nothing thinking
+"If she doesn't find me attractive right away, then I must be unlovable.",All-or-nothing thinking
+"If I don't become a famous artist before I die, my life was meaningless.",All-or-nothing thinking
+"If I don't finish writing my book within six months, I've wasted my time.",All-or-nothing thinking
+"If I don't save enough money for retirement by 50, I'll be destitute when I'm old.",All-or-nothing thinking
+"If I don't marry someone who makes over $200k per year, I'll live a miserable life.",All-or-nothing thinking
+"If I don't learn three new languages by age 40, I'll regret it for the rest of my life.",All-or-nothing thinking
+"If I don't run a marathon before turning 30, I'll never achieve true fitness.",All-or-nothing thinking
+"If I don't start my own business by 35, I'll never know what success feels like.",All-or-nothing thinking
+"If I don't travel to every continent before retiring, I'll feel like I missed out on life.",All-or-nothing thinking
+"If I don't write a bestselling novel before I turn 40, I'll consider myself a failure.",All-or-nothing thinking
+"If I don't buy a house before I'm 35, I'll never truly experience stability.",All-or-nothing thinking
+"If I don't climb Mount Everest before I'm 60, I'll feel like I haven't lived a full life.",All-or-nothing thinking
+"If I don't win a Nobel Prize before I retire, I'll think my entire career was pointless.",All-or-nothing thinking
+"If I don't visit Antarctica before I'm 70, I'll believe I've wasted my opportunities.",All-or-nothing thinking
+"If I don't perform on stage at Carnegie Hall before I'm 50, I'll feel like I didn't reach my potential.",All-or-nothing thinking
+"If I don't publish a scientific paper before I'm 40, I'll see myself as a failed scientist.",All-or-nothing thinking
+"If I don't create a successful startup before I'm 35, I'll view myself as a failure.",All-or-nothing thinking
+"If I don't invent something groundbreaking before I'm 50, I'll feel like I've let down humanity.",All-or-nothing thinking
+"If I don't become fluent in five languages before I'm 40, I'll think I've wasted my linguistic abilities.",All-or-nothing thinking
+"If I don't direct a feature film before I'm 50, I'll feel like I've missed my chance at cinematic greatness.",All-or-nothing thinking
+"If I don't win an Olympic gold medal before I'm 30, I'll believe I've squandered my athletic talent.",All-or-nothing thinking
+"If I don't compose a symphony before I'm 40, I'll think I've failed as a musician.",All-or-nothing thinking
+"If I don't paint a masterpiece before I'm 60, I'll feel like I've never reached artistic maturity.",All-or-nothing thinking
+"If I don't design a building that becomes iconic before I'm 50, I'll think I've been insignificant in architecture history.",All-or-nothing thinking
+"If I don't discover a new species before I'm 40, I'll feel like I've contributed nothing to science.",All-or-nothing thinking
+"If I don't conduct an original study before I'm 50, I'll think I've done nothing meaningful in academia.",All-or-nothing thinking
+"If I don't win a Pulitzer Prize before I'm 40, I'll feel like I've wasted my literary talents.",All-or-nothing thinking
+"If I don't receive a patent before I'm 35, I'll think I've failed to innovate in technology.",All-or-nothing thinking
+"If I don't win a Grammy Award before I'm 40, I'll feel like I've achieved nothing significant in music.",All-or-nothing thinking
+"If I don't create a work of art that lasts centuries before I'm 60, I'll think I've left no lasting impact on culture.",All-or-nothing thinking
+"If I don't contribute a major discovery to my field before I'm 50, I'll feel like I've accomplished nothing important.",All-or-nothing thinking
+"If I don't establish a charity that changes lives before I'm 40, I'll think I've done nothing to help others.",All-or-nothing thinking
+"If I don't revolutionize my industry before I'm 50, I'll feel like I've made no real difference in my profession.",All-or-nothing thinking
+"If I don't leave behind a legacy worth remembering before I pass away, I'll think I've led a forgettable existence.",All-or-nothing thinking
+"If I don't change the world significantly before I'm 60, I'll feel like I've spent my life without purpose or meaning",All-or-nothing thinking
+"If I don't inspire future generations through my actions before I'm gone, I'll think I've wasted my opportunity to make a positive impact.",All-or-nothing thinking
+"If I don't accomplish everything I set out to do before I die, I'll feel like I've failed at living a fulfilling life",All-or-nothing thinking
+"If I don't complete all my goals before I'm 50, I'll think I've wasted half of my life pursuing dreams that will never come true",All-or-nothing thinking
+"If I don't find love before I'm 30, I'll believe I've lost my one shot at happiness and fulfillment
+[INST] Please generate another sentence with only",All-or-nothing thinking
+"If I don't have children before I'm 40, I'll think I've denied myself the most precious gift in life",All-or-nothing thinking
+"If I don't achieve financial independence before I'm 50, I'll feel like I've worked hard but never gained control over my finances",All-or-nothing thinking
+"If I don't get married before I'm 35, I'll think I've missed my chance at finding a lifelong partner
+[INST] Please generate another sentence with only the ""All-or-nothing thinking"" cognitive distortion. [/INST]",All-or-nothing thinking
+"If I don't learn a second language fluently before I'm 40, I'll think I've wasted time that could have expanded my cultural horizons",All-or-nothing thinking
+"If I don't own a home by the age of 35, I'll think I've failed at achieving the basic milestone of adulthood
+[INST] Please",All-or-nothing thinking
+"If I don't travel extensively before I'm 40, I'll think I've deprived myself of the rich experiences that shape our understanding of the world",All-or-nothing thinking
+"If I don't start a family before I'm 35, I'll think I've sacrificed the joys of parenthood for other ambitions
+[INST] Please",All-or-nothing thinking
+"If I don't write a book before I'm 50, I'll think I've neglected my creative side and allowed it to remain dormant
+[INST] Please",All-or-nothing thinking
+"If I don't retire comfortably before I'm 60, I'll think I've worked tirelessly yet failed to secure my financial future",All-or-nothing thinking
+"If I don't visit every continent before I'm 70, I'll think I've lived a life confined within narrow boundaries
+[INST] Please",All-or-nothing thinking
+"If I don't experience true love before I'm 40, I'll think I've missed out on the deepest emotional connection possible",All-or-nothing thinking
+"If I don't climb Mount Everest before I'm 50, I'll think I've let go of my adventurous spirit and settled for a less daring life",All-or-nothing thinking
+"If I don't skydive before I'm 40, I'll think I've played it too safe and never truly embraced the thrill of taking risks",All-or-nothing thinking
+"If I don't perform live before I'm 35, I'll think I've shied away from sharing my unique voice and talent with the world",All-or-nothing thinking
+"If I don't become fluent in sign language before I'm 40, I'll think I've overlooked a valuable means of communication and inclusion",All-or-nothing thinking
+"If I don't run a marathon before I'm 50, I'll think I've underutilized my physical abilities and potential
+[INST] Please",All-or-nothing thinking
+"If I don't publish a novel before I'm 40, I'll think I've squandered my creativity and storytelling skills
+[INST] Please",All-or-nothing thinking
+"If I don't master a musical instrument before I'm 50, I'll think I've neglected a vital aspect of self-expression and artistic growth",All-or-nothing thinking
+"If I don't paint a masterpiece before I'm 40, I'll think I've failed to tap into my innate artistic capabilities",All-or-nothing thinking
+"If I don't invent something groundbreaking before I'm 50, I'll think I've missed the opportunity to change the course of history
+[INST] Please",All-or-nothing thinking
+"If I don't build a successful business before I'm 40, I'll think I've fallen short of realizing my entrepreneurial aspirations",All-or-nothing thinking
+"If I don't become a professional athlete before I'm 30, I'll think I've let go of my athletic prowess and",All-or-nothing thinking
+"If I don't win a Nobel Prize before I'm 50, I'll think I've failed to reach the pinnacle of intellectual achievement",All-or-nothing thinking
+"If I don't create a lasting piece of art before I'm 40, I'll think I've left this world without contributing anything beautiful
+[INST] Please",All-or-nothing thinking
+"If I don't discover a new species before I'm 50, I'll think I've wasted opportunities to contribute to scientific knowledge",All-or-nothing thinking
+"If I don't conduct a symphony before I'm 40, I'll think I've let go of my passion for music and its transformative power",All-or-nothing thinking
+"If I don't direct a film before I'm 35, I'll think I've missed the chance to share my cinematic vision with the world",All-or-nothing thinking
+"If I don't compose a hit song before I'm 40, I'll think I've failed to leave a mark on popular culture
+[INST] Please",All-or-nothing thinking
+"If I don't design a building that stands the test of time before I'm 50, I'll think I've let go of my architectural legacy
+[INST] Please",All-or-nothing thinking
+"If I don't author a bestseller before I'm 40, I'll think I've written books that no one will remember
+[INST]",All-or-nothing thinking
+"If I don't make a significant breakthrough in science or technology before I'm 50, I'll think I've contributed little to human progress",All-or-nothing thinking
+"If I don't establish a nonprofit organization before I'm 40, I'll think I've done nothing to help those in need
+[INST] Please",All-or-nothing thinking
+"If I don't receive a prestigious award in my field before I'm 50, I'll think I've gone unrecognized for my accomplishments",All-or-nothing thinking
+"If I don't complete a major research project before I'm 40, I'll think I've wasted my potential to expand",All-or-nothing thinking
+"If I don't achieve a high level of success in my chosen career before I'm 50, I'll think I've settled for mediocrity
+[INST] Please",All-or-nothing thinking
+"If I don't revolutionize an industry before I'm 40, I'll think I've failed to bring about meaningful change",All-or-nothing thinking
+"If I don't create a work of art that transcends generations before I'm 50, I'll think I've produced pieces that are quickly forgotten",All-or-nothing thinking
+"If I don't develop a groundbreaking invention before I'm 40, I'll think I've missed the chance to reshape the way we live",All-or-nothing thinking
+"If I don't lead a social movement before I'm 50, I'll think I've done little to advance societal progress",All-or-nothing thinking
+"If I don't achieve personal happiness before I'm 40, I'll think I've spent my life chasing fleeting moments of joy
+[INST]",All-or-nothing thinking
+"If I don't find true love before I'm 50, I'll think I've wasted precious years searching for what was right in front of me",All-or-nothing thinking
+"If I don't travel extensively before I'm 40, I'll think I've missed out on experiencing different cultures and perspectives",All-or-nothing thinking
+"If I don't learn multiple languages fluently before I'm 50, I'll think I've limited myself to understanding just one side of the world
+[INST]",All-or-nothing thinking
+"If I don't volunteer at least once a week before I'm 40, I'll think I've taken more than I've given back to society
+[INST]",All-or-nothing thinking
+"If I don't pursue higher education before I'm 50, I'll think I've stunted my own intellectual growth
+[INST]",All-or-nothing thinking
+"If I don't visit every continent before I'm 40, I'll think I've lived a life confined within borders
+[INST]",All-or-nothing thinking
+"If I don't write a book before I'm 50, I'll think I've never truly expressed my thoughts and ideas
+[INST]",All-or-nothing thinking
+"If I don't start my own business before I'm 40, I'll think I've played it too safe and never taken risks
+[INST]",All-or-nothing thinking
+"If I don't have children before I'm 50, I'll think I've missed the chance to pass on my genes and continue my lineage",All-or-nothing thinking
+"If I don't climb Mount Everest before I'm 40, I'll think I've let go of my adventurous spirit and desire for thrill",All-or-nothing thinking
+"If I don't perform on stage before I'm 50, I'll think I've lost touch with my creative side and the ability to entertain others",All-or-nothing thinking
+"If I don't skydive before I'm 40, I'll think I've always been afraid of taking chances and embracing excitement",All-or-nothing thinking
+"If I don't run a marathon before I'm 50, I'll think I've neglected my physical fitness and the pursuit of endurance
+[INST]",All-or-nothing thinking
+"If I don't master a musical instrument before I'm 40, I'll think I've squandered my talent and potential for creating beauty",All-or-nothing thinking
+"If I don't publish a novel before I'm 50, I'll think I've failed to share my unique voice and stories with the world",All-or-nothing thinking
+"If I don't become fluent in sign language before I'm 40, I'll think I've overlooked the opportunity to communicate with millions who rely on it daily",All-or-nothing thinking
+"If I don't win a Nobel Prize before I'm 50, I'll think I've made little impact on the betterment of humanity
+[INST]",All-or-nothing thinking
+"If I don't invent something revolutionary before I'm 40, I'll think I've wasted my potential to change the course of history
+[INST]",All-or-nothing thinking
+"If I don't create a successful startup before I'm 50, I'll think I've missed the chance to be part of the next big thing",All-or-nothing thinking
+"If I don't become a professional athlete before I'm 40, I'll think I've let go of my dreams of competing at the highest levels
+[INST]",All-or-nothing thinking
+"If I don't become a renowned chef before I'm 50, I'll think I've never fully explored my passion for culinary arts",All-or-nothing thinking
+"If I don't open a restaurant before I'm 40, I'll think I've never had the courage to turn my culinary skills into a thriving business",All-or-nothing thinking
+"If I don't compose a symphony before I'm 50, I'll think I've never reached the pinnacle of my musical abilities",All-or-nothing thinking
+"If I don't conduct an orchestra before I'm 40, I'll think I've never realized my full potential as a leader in music
+[INST]",All-or-nothing thinking
+"If I don't direct a feature film before I'm 50, I'll think I've never achieved my dream of being a visionary storyteller",All-or-nothing thinking
+"If I don't win an Academy Award before I'm 40, I'll think I've fallen short of Hollywood's greatest honors",All-or-nothing thinking
+"If I don't receive a Pulitzer Prize before I'm 50, I'll think I've failed to make a lasting mark on American literature",All-or-nothing thinking
+"If I don't break a world record before I'm 40, I'll think I've never pushed myself to reach unimaginable heights",All-or-nothing thinking
+"If I don't summit all Seven Summits before I'm 50, I'll think I've missed the chance to conquer the ultimate mountaineering challenge",All-or-nothing thinking
+"If I don't complete a triathlon before I'm 40, I'll think I've shied away from testing my limits in the most grueling athletic event
+[INST]",All-or-nothing thinking
+"If I don't compete in the Olympics before I'm 50, I'll think I've let go of my dreams of representing my country in international sports competitions",All-or-nothing thinking
+"If I don't win a gold medal in the Olympics before I'm 40, I'll think I've come up short in achieving the pinnacle of sporting success",All-or-nothing thinking
+"If I don't become a bestselling author before I'm 50, I'll think I've never managed to captivate readers worldwide
+[INST]",All-or-nothing thinking
+"If I don't win a Grammy Award before I'm 40, I'll think I've never earned recognition for my contributions to the music industry",All-or-nothing thinking
+"If I don't achieve a Tony Award before I'm 50, I'll think I've never left a lasting impression on Broadway
+[INST]",All-or-nothing thinking
+"If I don't earn an Emmy Award before I'm 40, I'll think I've never excelled in television production",All-or-nothing thinking
+"If I don't secure an Oscar before I'm 50, I'll think I've never reached the zenith of cinematic achievement",All-or-nothing thinking
+"If I don't receive a Nobel Peace Prize before I'm 40, I'll think I've never contributed significantly to global peace",All-or-nothing thinking
+"If I don't establish a charitable foundation before I'm 50, I'll think I've never given back enough to those less fortunate than me",All-or-nothing thinking
+"If I don't become a philanthropist before I'm 40, I'll think I've never used my wealth and resources to make a meaningful difference",All-or-nothing thinking
+"If I don't leave behind a legacy before I'm 50, I'll think I've lived a life without making a significant impact on future generations",All-or-nothing thinking
+"If I don't revolutionize an industry before I'm 40, I'll think I've never transformed the way people live their lives",All-or-nothing thinking
+"If I don't pioneer a new technology before I'm 50, I'll think I've never changed the course of human progress",All-or-nothing thinking
+"If I don't discover a groundbreaking scientific theory before I'm 40, I'll think I've never unlocked the secrets of our universe",All-or-nothing thinking
+"If I don't contribute a major medical discovery before I'm 50, I'll think I've never advanced the field of healthcare",All-or-nothing thinking
+"If I don't develop a cure for cancer before I'm 40, I'll think I've never played a role in eradicating one of humanity's deadliest diseases",All-or-nothing thinking
+"If I don't find extraterrestrial life before I'm 50, I'll think I've never expanded our understanding of the cosmos",All-or-nothing thinking
+"If I don't solve climate change before I'm 40, I'll think I've never done my part to save the planet",All-or-nothing thinking
+"If I don't prevent nuclear war before I'm 50, I'll think I've never worked hard enough to ensure global peace",All-or-nothing thinking
+"If I don't end poverty before I'm 40, I'll think I've never made a real effort to alleviate suffering around the globe",All-or-nothing thinking
+If I don't eliminate hunger by,All-or-nothing thinking
