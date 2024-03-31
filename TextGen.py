@@ -24,7 +24,7 @@ generate_data = [
                     ("Personalization", 153),
                     ("Fortune-telling", 143),
                     ("Emotional Reasoning", 134),
-                    ("Mental Filter", 122),
+                    ("Mental filter", 122),
                     ("Should statements", 107),
                     ("All-or-nothing thinking", 100)
                 ]
