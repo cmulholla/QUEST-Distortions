@@ -61,8 +61,8 @@ def download_model(model_id, file_name, save_folder, progress_percentage):
     # if we reach here, it means we failed to download the file
     print(f"Failed to download file '{file_name}' after {max_retries} attempts. Skipping download.")
 
-model_id = "mistralai/Mistral-7B-Instruct-v0.2"
-save_folder = f"N:/AI/mistral-7B-instruct/"
+model_id = "Salesforce/SFR-Embedding-Mistral"
+save_folder = f"N:/AI/SFR-Embedding-Mistral/"
 max_files = 3
 progress_percentage = 2
 
