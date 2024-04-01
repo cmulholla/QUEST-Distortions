@@ -1,3 +1,4 @@
+# use openai's gpt-3 to generate text
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import time
@@ -5,43 +6,33 @@ from accelerate import Accelerator
 from peft import prepare_model_for_kbit_training, prepare_model_for_int8_training
 import pandas as pd
 import numpy as np
+from openai import OpenAI
 
-# Initialize the tokenizer and model
-#model_id = "mistralai/Mistral-7B-Instruct-v0.2"
-model_id = "teknium/OpenHermes-2-Mistral-7B"
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-precision = "fp4"
-path=f"N:\\AI\\text-generation-webui-main\\models\\teknium_OpenHermes-2-Mistral-7B\\"
-#path=f"N:\\AI\\mistral-7B-instruct\\"
+# Initialize the OpenAI client
+client = OpenAI()
 
-# if the model variable exists, delete it to free up memory before loading the new model
-if 'model' in locals():
-    model = None
+# Load the model
+#model = oi.Completion.create(model="gpt-4", max_tokens=512, temperature=0.7, top_p=0.1, frequency_penalty=1.2, presence_penalty=0.5, stop=["\n", "[INST]"])
 
-if (precision == "fp16"):
-    model = AutoModelForCausalLM.from_pretrained(path, torch_dtype=torch.float16).to("cuda")
-elif (precision == "fp8"):
-    model = AutoModelForCausalLM.from_pretrained(path, load_in_8bit=True, device_map='cuda')
-elif (precision == "fp4"):
-    model = AutoModelForCausalLM.from_pretrained(path, load_in_4bit=True, device_map='cuda')
+# Additional context to be added to the input
+additional_context = "The following is a conversation with an AI assistant. The assistant is helpful and concise. The assistant does not respond to the question, and only does as the question says"
 
-
-additional_context = "[INST] The following is a conversation with an AI assistant. The assistant is helpful and concise. The assistant does not respond to the question, and only does as the question says. [/INST]"
 # Generate outputs
 def generate_response(text):
     try:
-        # Append a prompt to the user's input
-        inputs = tokenizer(text, return_tensors="pt").to("cuda")
-        outputs = model.generate(**inputs, max_new_tokens=512, do_sample=True, use_cache=True, top_k=40, top_p=0.1, temperature=0.7, repetition_penalty=1.2, num_return_sequences=1, pad_token_id=tokenizer.eos_token_id, eos_token_id=tokenizer.eos_token_id, bos_token_id=tokenizer.bos_token_id)
-        responseIn = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        
+        #outputs = model.generate(**inputs, max_new_tokens=512, do_sample=True, use_cache=True, top_k=40, top_p=0.1, temperature=0.7, repetition_penalty=1.2, num_return_sequences=1, pad_token_id=tokenizer.eos_token_id, eos_token_id=tokenizer.eos_token_id, bos_token_id=tokenizer.bos_token_id)
+        response = client.chat.completions.create(
+            model = "gpt-4",
+            messages = text
+        )
+
         #text = responseIn + "\n[INST] Please generate another sentence. [/INST]"
         #inputs = tokenizer(text, return_tensors="pt").to("cuda")
         #outputs = model.generate(**inputs, max_new_tokens=512, do_sample=True, use_cache=True, top_k=40, top_p=0.1, temperature=0.7, repetition_penalty=1.2, num_return_sequences=1, pad_token_id=tokenizer.eos_token_id, eos_token_id=tokenizer.eos_token_id, bos_token_id=tokenizer.bos_token_id)
         #responseIn = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-        # Remove the prompt from the start of the response
-        response = responseIn[len(text):]
+        # get the response from the model
+        response = response.choices[0].message.content
     except Exception as e:
         response = "Sorry, I encountered an error. Please try again."
         print(e)
@@ -58,20 +49,27 @@ def generate_record(original_data, input_text, distortion):
         rand_records.append(distorion_data.iloc[index]["Distorted part"])
 
     # Generate a response
-    main_input = additional_context+"\n"+"[INST] " + input_text + " [/INST]\n\n" + rand_records[0] + "\n\n" + rand_records[1] + "\n\n" + rand_records[2] + "\n\n"
+    messages = [
+        {"role": "system", "content": additional_context},
+        {"role": "user", "content": input_text},
+        {"role": "assistant", "content": rand_records[0]},
+        {"role": "assistant", "content": rand_records[1]},
+        {"role": "assistant", "content": rand_records[2]}
+    ]
 
-    output = generate_response(main_input)
+    output = generate_response(messages)
 
     if len(output) == 0:
         output = "Sorry, I encountered an error. Please try again."
 
-    if output[0] == '\n':
-        output = output[1:]
+    # if the output contains a newline character within, remove it
+    if output.find("\n") != -1:
+        output = output.replace("\n", " ")
 
-    return generate_response(main_input)
+    return output
 
 
-to_generate = 240
+to_generate = 101
 
 generate_data = [
                     ("Mind Reading", 239),
@@ -101,6 +99,8 @@ data = data.dropna()
 # print the unique distortions
 print(data["Dominant Distortion"].unique())
 
+inputText = "Please generate four similar sentences with only the \"Mental Filters\" cognitive distortion within it, from the perspective of the person with the distortion."
+
 # start the timer
 start = time.time()
 
@@ -115,8 +115,6 @@ for c in range(len(generate_data)):
 
     print(f"Generating {generate} records for {generate_data[c][0]}")
 
-    inputText = f"Please generate four similar sentences with only the \"{generate_data[c][0]}\" cognitive distortion within it, from the perspective of the person with the distortion."
-
     for i in range(generate):
 
         new_output = generate_record(data, inputText, generate_data[c][0])
@@ -126,7 +124,7 @@ for c in range(len(generate_data)):
         generated_records += 1
     
     # save the dataframe to a csv file
-    df.to_csv("distorted_partsGen2.csv", index=False)
+    df.to_csv("distorted_partsGPT4.csv", index=False)
 
 # end the timer
 end = time.time()
