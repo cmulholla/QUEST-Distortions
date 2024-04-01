@@ -133,3 +133,5 @@ end = time.time()
 
 # Print the time taken
 print(f"Time taken: {end - start} seconds")
+
+# time taken for 240 records: 2 hours

@@ -69,7 +69,7 @@ def generate_record(original_data, input_text, distortion):
     return output
 
 
-to_generate = 101
+to_generate = 240
 
 generate_data = [
                     ("Mind Reading", 239),
@@ -99,8 +99,6 @@ data = data.dropna()
 # print the unique distortions
 print(data["Dominant Distortion"].unique())
 
-inputText = "Please generate four similar sentences with only the \"Mental Filters\" cognitive distortion within it, from the perspective of the person with the distortion."
-
 # start the timer
 start = time.time()
 
@@ -112,6 +110,8 @@ generated_records = 0
 for c in range(len(generate_data)):
 
     generate = to_generate - generate_data[c][1] if (to_generate - generate_data[c][1]) > 0 else 0
+
+    inputText = f"Please generate four similar sentences with only the \"{generate_data[c][0]}\" cognitive distortion within it, from the perspective of the person with the distortion."
 
     print(f"Generating {generate} records for {generate_data[c][0]}")
 
@@ -131,3 +131,5 @@ end = time.time()
 
 # Print the time taken
 print(f"Time taken: {end - start} seconds")
+
+# I am able to generate 2100, 60 word records with $10
