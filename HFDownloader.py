@@ -61,10 +61,10 @@ def download_model(model_id, file_name, save_folder, progress_percentage):
     # if we reach here, it means we failed to download the file
     print(f"Failed to download file '{file_name}' after {max_retries} attempts. Skipping download.")
 
-model_id = "Salesforce/SFR-Embedding-Mistral"
-save_folder = f"N:/AI/SFR-Embedding-Mistral/"
+model_id = "GritLM/GritLM-7B"
+save_folder = f"N:/AI/GritLM-7B/"
 max_files = 3
-progress_percentage = 2
+progress_percentage = 5
 
 # Download each safetensors file
 for i in range(1, max_files + 1):
