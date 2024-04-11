@@ -10,7 +10,7 @@ import numpy as np
 #model_id = "mistralai/Mistral-7B-Instruct-v0.2"
 model_id = "teknium/OpenHermes-2-Mistral-7B"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
-precision = "fp4"
+precision = "fp4-"
 path=f"N:\\AI\\text-generation-webui-main\\models\\teknium_OpenHermes-2-Mistral-7B\\"
 #path=f"N:\\AI\\mistral-7B-instruct\\"
 
@@ -71,9 +71,9 @@ def generate_record(original_data, input_text, distortion):
     return generate_response(main_input)
 
 
-to_generate = 240
+to_generate = 200
 
-generate_data = [
+"""generate_data = [
                     ("Mind Reading", 239),
                     ("Overgeneralization", 239),
                     ("Magnification", 195),
@@ -84,7 +84,16 @@ generate_data = [
                     ("Mental filter", 122),
                     ("Should statements", 107),
                     ("All-or-nothing thinking", 100)
-                ]
+                ]"""
+
+# perform the generation in blocks to avoid memory issues
+generate_data = [("No Distortion", 100),
+                 ("No Distortion", 100),
+                 ("No Distortion", 100),
+                 ("No Distortion", 100),
+                 ("No Distortion", 100),
+                 ("No Distortion", 100),
+                 ("No Distortion", 200-64)]
 
 # calculate total number of records to generate
 total_records = 0
@@ -96,7 +105,6 @@ print(f"Total records to generate: {total_records}")
 
 
 data = pd.read_csv('Annotated_data.csv')
-data = data.dropna()
 
 # print the unique distortions
 print(data["Dominant Distortion"].unique())
@@ -105,7 +113,10 @@ print(data["Dominant Distortion"].unique())
 start = time.time()
 
 # Create a DataFrame from the history list
-df = pd.DataFrame([], columns=["Distorted part","Dominant Distortion"])
+df = pd.DataFrame([], columns=["Patient Question","Distorted part","Dominant Distortion"])
+
+# if the Distorted part column is empty, fill it with the Patient Question
+data["Distorted part"] = data["Distorted part"].fillna(data["Patient Question"])
 
 generated_records = 0
 
@@ -115,7 +126,8 @@ for c in range(len(generate_data)):
 
     print(f"Generating {generate} records for {generate_data[c][0]}")
 
-    inputText = f"Please generate four similar sentences with only the \"{generate_data[c][0]}\" cognitive distortion within it, from the perspective of the person with the distortion."
+    # \"{generate_data[c][0]}\"
+    inputText = f"Please generate four sentences with "+"no"+" cognitive distortions within it, from the perspective of the person. Each sentence should be unique but similar in style to the others."
 
     for i in range(generate):
 
@@ -126,7 +138,7 @@ for c in range(len(generate_data)):
         generated_records += 1
     
     # save the dataframe to a csv file
-    df.to_csv("distorted_partsGen2.csv", index=False)
+    df.to_csv("distorted_partsNoDistort.csv", index=False)
 
 # end the timer
 end = time.time()
