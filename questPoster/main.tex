@@ -1,0 +1,133 @@
+\documentclass[20pt,margin=1in,innermargin=-4.5in,blockverticalspace=-0.25in]{tikzposter}
+\geometry{paperwidth=42in,paperheight=30in}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+% \usepackage[estonian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage{unitartu-theme}
+
+
+
+\usepackage{mwe} % for placeholder images
+
+\addbibresource{refs.bib}
+
+% set theme parameters
+\tikzposterlatexaffectionproofoff
+\usetheme{UniTartuTheme}
+\usecolorstyle{UniTartuStyle}
+
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\renewcommand{\vec}[1]{\bm{#1}}
+\newcommand{\Tr}{\text{Tr}}
+\usepackage[T1]{fontenc}
+\titlegraphic{\includegraphics[width=0.15\linewidth]{ltu.png}}
+
+\title{\textbf{Exploring Generative A.I. for Addressing Class Imbalance in Cognitive Distortion Predictive Models}}
+\author{Connor Mulholland, BSCS Candidate; Paula Lauren, PhD, Professor, CoAS
+}
+\institute{Dept. of Mathematics and Computer Science, Lawrence Technological University\\
+            }
+\titlegraphic{\includegraphics[width=0.15\linewidth]{ltu.png}}
+
+% begin document
+
+% block 1: Abstract
+% block 2: Introduction
+%          - include:
+%          - Cognitive distortions
+%          - Cognitive-behavioral therapy (CBT)
+%          - The original paper - https://aclanthology.org/2021.clpsych-1.17.pdf (Detecting Cognitive Distortions from Patient-Therapist Interactions)
+%          - The problem of class imbalance in cognitive distortion predictive models
+%          - The potential of generative AI models to address class imbalance
+%          - The induvidual class classification vs binary classification
+% block 3: Initial Data Analysis
+%          - include:
+%          - The dataset used in this study
+%          - Including the non-distorted class, running the data on tfidf and LinearSVC gives an F1-score of 0.32 as it only predicts the non-distorted and the 2nd highest distorted class
+%          - Treating the problem as a binary classification problem and a multi-class classification problem for the 10 classes makes the models more useful
+%          - The best F1-score for the multi-class classification problem is 0.21 using tfidf and LinearSVC
+%          - The best F1-score for the binary classification problem is 0.73 using tfidf and SVC
+%          - include graphs of the data, talk over with the professor which to include
+% block 4: Sentence-BERT Embeddings
+%          - include:
+%          - Sentence-BERT (SBERT) embedding models
+%          - Compare different models and their performance
+%          - The best F1-score for the multi-class classification problem is 0.262 using the "intfloat/multilingual-e5-large-instruct" Sentence Transformer and LinearSVC
+%          - The best F1-score for the binary classification problem is 0.756 using the "intfloat/multilingual-e5-large-instruct" Sentence Transformer with SVM
+% block 5: Generative AI Models
+%          - include:
+%          - Compare different generation tequniques and their performance
+%          - Compare different models and their performance
+%          - Go over the methods which didn't work, and go over the methods which did work in the next section
+% block 6: F1-Score Results Analysis
+%          - include:
+%          - The best F1-score for the multi-class classification problem is 0.298 using the "intfloat/multilingual-e5-large-instruct" Sentence Transformer and MLPClassifier with hyperparameter tuning (alpha=0.05)
+%          - The best F1-score for the binary classification problem is 0.765 using the "intfloat/multilingual-e5-large-instruct" Sentence Transformer and SVM with hyperparameter tuning (C=3.5)
+%          - Include graphs of the data, talk over with the professor which to include
+% block 7: Conclusion
+%          - include:
+%          - The best model and the best F1-score
+%          - Reiterate the problem and the goals
+%          - Include the limitations of the study
+%          - Include the future work (maybe making this it's own block)
+%- different methods of text generation
+%	- fine-tuning gpt2 like in [this paper](https://www.researchgate.net/publication/346813794_Exploring_the_Potential_of_GPT-2_for_Generating_Fake_Reviews_of_Research_Papers)
+%	- playing around with many kinds of text generation inputs
+%- different methods of categorization
+%	- using gpt4 to categorize data instead of usual ML models
+%	- manually implementing an F1 score for the multi class records
+% block 8: Acknowledgements
+%         - include: ???
+% block 9: References
+%         - include: the main paper and the kaggle dataset, along with sklearn stuff like in the original paper
+
+\begin{document}
+\maketitle
+\centering
+\begin{columns}
+    \column{0.32}
+    \block{Abstract}{
+         Modern tools for natural language generation may enable Artificial Intelligence (AI) models to be better trained on imbalanced data by generating records for the minority classes. Specifically, the psychoanalytic cognitive distortion data is based on the irrational or biased ways of thinking which can contribute to negative emotions and behaviors, which are crucial in many types of therapy. We compare various types of Generative AI models for generating new records and the current limitations of these new models. We find that pretrained Sentence-Bidirectional Encoder Representations from Transformers (Sentence-BERT) embeddings (i.e., multilingual-e5-large-instruct) used to train a Support Vector Machine (SVM) classifier model yields the best binary results with an F1-score of 0.756. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same Sentence-BERT embeddings with SVM classification model.
+    }
+    \block{Introduction}{
+        Cognitive distortions are irrational or biased ways of thinking that can contribute to negative emotions and behaviors. Cognitive-behavioral therapy (CBT) is a common therapeutic approach that aims to help individuals identify and challenge these distortions. Detecting cognitive distortions from patient-therapist interactions is a challenging task that has been addressed in recent research. The original paper by \cite{original_paper} uses a dataset of patient-therapist interactions to train a model to detect cognitive distortions. However, the dataset is highly imbalanced, with the majority of the data belonging to the non-distorted class. This class imbalance poses a challenge for training accurate predictive models. Generative AI models have the potential to address class imbalance by generating synthetic data for the minority classes. In this study, we explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. We compare the performance of different generative AI models and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions. We consider both binary and multi-class classification tasks and evaluate the models using F1-score as the performance metric.
+    }
+    \block{Initial Data Analysis}{
+        We use a dataset of patient-therapist interactions to train our models. The dataset contains 10 classes of cognitive distortions, with the majority of the data belonging to the non-distorted class. We first treat the problem as a binary classification task, where we combine all the distorted classes into a single class and compare the performance of different classification algorithms. We use the Term Frequency-Inverse Document Frequency (tf-idf) vectorizer to convert the text data into numerical features and train a Linear Support Vector Classifier (LinearSVC) on the data. The best F1-score for the binary classification task is 0.73 using tf-idf and LinearSVC. We then treat the problem as a multi-class classification task and compare the performance of different classification algorithms. The best F1-score for the multi-class classification task is 0.21 using tf-idf and LinearSVC. The addition of the non-distorted class to the multi-class classification task resulted in a marginal improvement in performance, with an F1-score of 0.32 using tf-idf and LinearSVC.
+    }
+    \column{0.32}
+    \block{Sentence-BERT Embeddings}{
+        Sentence-BERT (SBERT) is a variant of the BERT model that is specifically trained to generate sentence embeddings. We compare the performance of different SBERT models on the task of detecting cognitive distortions from patient-therapist interactions. We use the Sentence Transformer library to generate SBERT embeddings for the text data and train different classification algorithms on the embeddings. The best F1-score for the multi-class classification task is 0.262 using the "intfloat/multilingual-e5-large-instruct" SBERT model and LinearSVC. The best F1-score for the binary classification task is 0.756 using the "intfloat/multilingual-e5-large-instruct" SBERT model with SVM.
+    }
+    \block{Generative AI Models}{
+        We explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. We compare the performance of different generation techniques, including fine-tuning GPT-2 models and recursive data generation. We also compare the performance of different classification algorithms on the generated data. The best F1-score for the multi-class classification task is 0.285 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter tuning. The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model.
+    }
+    \column{0.32}
+    \block{F1-Score Results Analysis}{
+        We compare the F1-score results of the different models and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions. The best F1-score for the multi-class classification task is 0.285 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter tuning. The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model.
+    }
+    \block{Conclusion}{
+        In this study, we explored the use of generative AI models to address class imbalance in cognitive distortion predictive models. We compared the performance of different generative AI models and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions. We found that pretrained Sentence-BERT embeddings used to train a Support Vector Machine (SVM) classifier model yielded the best binary results with an F1-score of 0.756. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same Sentence-BERT embeddings with SVM classification model. Our results suggest that generative AI models have the potential to improve the performance of cognitive distortion predictive models by addressing class imbalance.
+    }
+    \block{Acknowledgements}{
+     
+    }
+    \block{References}{
+        \vspace{-1em}
+        \begin{footnotesize}
+        \printbibliography[heading=none]
+        \end{footnotesize}
+    }
+\end{columns}
+\end{document}
