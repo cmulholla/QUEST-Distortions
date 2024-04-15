@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713199932.81996 "c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex" "conference_poster_5.pdf" "conference_poster_5" 1713199934.07717 0
+["pdflatex"] 1713207097.04128 "c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex" "conference_poster_5.pdf" "conference_poster_5" 1713207098.29576 0
   "C:/Users/meaps/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1713053723 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/meaps/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1713044737 24236006 0f771cf4f14b77984beb349847c6bf86 ""
   "C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -59,9 +59,9 @@
   "LTU2.png" 1712960692 42648 7e946f7beeec841d580d16c115d80bdf ""
   "a0poster.cls" 1712960687 6176 37402c6052502599d35b9e16a21767aa ""
   "a0size.sty" 1712960688 7728 3b92cf7fd22bdf46734222814afe7554 ""
-  "c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex" 1713199930 19490 f4236a8b18f352344057e063016ba671 ""
-  "conference_poster_5.aux" 1713199933 1064 f1e51d2218e99f12660a788af26353b2 "pdflatex"
-  "conference_poster_5.tex" 1713199930 19490 f4236a8b18f352344057e063016ba671 ""
+  "c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex" 1713207096 20767 1af84d9f8dad45aeee7a33d7e8d635a0 ""
+  "conference_poster_5.aux" 1713207098 1064 6a8e8ef774b49a6eee226fb1166b9fea "pdflatex"
+  "conference_poster_5.tex" 1713207096 20767 1af84d9f8dad45aeee7a33d7e8d635a0 ""
   "figures/1stFour.png" 1713197558 240704 93712cb06505cb64f4466742d2d875b3 ""
   "figures/F1ScoresInitSBERT.png" 1713155027 69252 408aee483751e7772475725fd2f6ab37 ""
   "figures/finalGraphs.png" 1713199747 80600 dba76f6871d74fe1b74b57b922c1538a ""

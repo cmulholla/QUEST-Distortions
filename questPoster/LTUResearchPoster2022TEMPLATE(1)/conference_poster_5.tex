@@ -41,7 +41,7 @@
 
 
 \begin{comment}
-  ##### block 1: Abstract
+##### block 1: Abstract
 (already figured out)
 ##### block 2: Introduction
 - Cognitive distortions
@@ -56,9 +56,9 @@
 - Treating the problem as a binary classification problem and a multi-class classification problem for the 10 classes makes the models more useful
 - The best F1-score for the multi-class classification problem is 0.21 using tfidf and LinearSVC
 - The best F1-score for the binary classification problem is 0.73 using tfidf and SVC
-- include graphs of the data, talk over with the professor which to include
-	- show class imbalance
-	- combine average scores for the no distortion and with no distortion data
+- include graphs of the data, talk over with the professor which to include - 1stFour.png
+	- show class imbalance - classImbalance.png
+	- combine average scores for the no distortion and with no distortion data - F1ScoresWithandWithout.png
 	- heatmap of confusion matrix for best model
 		- each of these available for binary and multi-class classification
 	- show w/ no distortion heatmap
@@ -80,6 +80,7 @@
 - Include graphs of the data, talk over with the professor which to include
 - have the classification report for each classification method (binary and multi-class)
 	- support test count
+
 ##### Discussion
 - Include the limitations of the study
 - Inter-Annotator Agreement IAA score which posed a challenge
@@ -92,13 +93,13 @@
 ##### block 7: Conclusion
 - The best model and the best F1-score
 - Reiterate the problem and the goals
-- Include the future work
-  - different methods of text generation
-	  - fine-tuning gpt2 like in [this paper](https://www.researchgate.net/publication/346813794_Exploring_the_Potential_of_GPT-2_for_Generating_Fake_Reviews_of_Research_Papers)
-  	- playing around with many kinds of text generation inputs
-  - different methods of categorization
-  	- using gpt4 to categorize data instead of usual ML models
-  	- manually implementing an F1 score for the multi class records
+- Include the future work (maybe making this it's own block)
+- different methods of text generation
+	- fine-tuning gpt2 like in [this paper](https://www.researchgate.net/publication/346813794_Exploring_the_Potential_of_GPT-2_for_Generating_Fake_Reviews_of_Research_Papers)
+	- playing around with many kinds of text generation inputs
+- different methods of categorization
+	- using gpt4 to categorize data instead of usual ML models
+	- manually implementing an F1 score for the multi class records
 - Bring it all back to CBTherapy
 	- How simply the binary classification is useful for a future system and would be a good first step for further analysis by a human
 ##### block 8: Acknowledgements
@@ -172,14 +173,34 @@ Modern tools for natural language generation may enable Artificial Intelligence 
 \section*{Introduction}
 \color{Black}
 
-Cognitive distortions are irrational or biased ways of thinking that can contribute to negative emotions and behaviors. Cognitive-behavioral therapy (CBT) is a common therapeutic approach that aims to help individuals identify and challenge these distortions. Detecting cognitive distortions from patient-therapist interactions is a challenging task that has been addressed in recent research. The paper who first utilized this data\cite{original_paper} uses a dataset of patient-therapist interactions to train a model to detect cognitive distortions. However, the dataset is highly imbalanced, with the majority of the data belonging to the non-distorted class. This class imbalance poses a challenge for training accurate predictive models. Generative AI models have the potential to address class imbalance by generating synthetic data for the minority classes. In this study, we explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. We compare the performance of different generative AI models and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions. We consider both binary and multi-class classification tasks and evaluate the models using F1-score as the performance metric.
+Cognitive distortions are irrational or biased ways of thinking that can contribute to negative emotions and behaviors. 
+Cognitive-behavioral therapy (CBT) is a common therapeutic approach that aims to help individuals identify and challenge these distortions.
+Detecting cognitive distortions from patient-therapist interactions is a challenging task that has been addressed in recent research, and could be crucial in many types of therapy to help therapstis and individuals identify and challenge these distortions.
+The paper who first utilized this data\cite{original_paper} uses a dataset of patient-therapist interactions to train a model to detect cognitive distortions.
+However, the dataset is highly imbalanced, with the majority of the data belonging to the non-distorted class.
+This class imbalance poses a challenge for training accurate predictive models.
+Generative AI models have the potential to address class imbalance by generating synthetic data for the minority classes.
+In this study, we explore the use of generative AI models to address class imbalance in cognitive distortion predictive models.
+We compare the performance of different generative AI models and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions.
+We consider both binary and multi-class classification tasks and evaluate the models using F1-score as the performance metric.
 
 %%%%%%%%%%%%%% INITIAL DATA ANALYSIS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}
 \section*{Initial Data Analysis}
 \color{Black}
 
-We use a dataset of patient-therapist interactions to train our models. The dataset contains 10 classes of cognitive distortions, with the majority of the data belonging to the non-distorted class. We first treat the problem as a binary classification task, where we combine all the distorted classes into a single class and compare the performance of different classification algorithms. We use the Term Frequency-Inverse Document Frequency (tf-idf) vectorizer to convert the text data into numerical features and train a Linear Support Vector Classifier (LinearSVC) on the data. The best F1-score for the binary classification task is 0.73 using tf-idf and LinearSVC. We then treat the problem as a multi-class classification task and compare the performance of different classification algorithms. The best F1-score for the multi-class classification task is 0.21 using tf-idf and LinearSVC. The addition of the non-distorted class to the multi-class classification task resulted in a marginal improvement in performance, with an F1-score of 0.32 using tf-idf and LinearSVC.
+We use a dataset of patient-therapist interactions to train our models.
+The dataset contains 10 classes of cognitive distortions, with the majority of the data belonging to the non-distorted class.
+We first treat the problem as a binary classification task, where we combine all the distorted classes into a single class and compare the performance of 
+different classification algorithms.
+We use the Term Frequency-Inverse Document Frequency (tf-idf) vectorizer to convert the text data into numerical features and train a 
+Linear Support Vector Classifier (LinearSVC) on the data.
+The best initial F1-score for the binary classification task is 0.73 using tf-idf and LinearSVC.
+We then treat the problem as a multi-class classification task and compare the performance of different classification algorithms.
+The best initial F1-score for the multi-class classification task is 0.21 using tf-idf and LinearSVC.
+The addition of the non-distorted class to the multi-class classification task resulted in a marginal improvement in performance, 
+with an F1-score of 0.32 using tf-idf and LinearSVC.
+
 
 \begin{center}\vspace{0.5cm}
 	\includegraphics[width=0.99\linewidth]{figures/1stFour.png}
@@ -205,7 +226,14 @@ Sentence-BERT (SBERT) is a variant of the BERT model that is specifically traine
 \section*{Generative AI Models}
 \color{Black}
 
-We explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. We compare the performance of different generation techniques, including fine-tuning GPT-2 models and recursive data generation. We also compare the performance of different classification algorithms on the generated data. The best F1-score for the multi-class classification task is 0.285 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter tuning. The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model.
+We explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. 
+For the first set of experiments, we use the "mistralai/Mistral-7B-Instruct-v0.2" model to generate new records for the minority classes in the dataset.
+We used a recursive technique to generate new records taking the generated data and appending the same question and feeding it back to the model, extracting and storing the generated data.
+We then used a sampling technique by pulling three random samples from the generated data, acting as if the model generated that data, and asking the model to generate a fourth sample similar to the three and including the distortion with it.
+We used this sampling technique on GPT-4 as it was the most inexpensive, the fastest, and the cleanest method to generate data, although later we found that it was not the most effective.
+\\
+The best F1-score for the multi-class classification task is 0.285 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter tuning using the recursively generated data. 
+The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning using the recursively generated data. 
 
 \begin{center}
 \includegraphics[width=0.99\linewidth]{figures/generatedDataDiffDiff.png}
@@ -218,7 +246,10 @@ We explore the use of generative AI models to address class imbalance in cogniti
 \section*{Results and Evaluation}
 \color{Black}
 
-The best F1-score for the multi-class classification task is 0.298 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter tuning. The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model.
+The best F1-score for the multi-class classification task is 0.298 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter tuning. 
+The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning. 
+The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a 
+marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model.
 
 \begin{center}
 \includegraphics[width=0.99\linewidth]{figures/finalGraphs.png}
@@ -230,7 +261,16 @@ The best F1-score for the multi-class classification task is 0.298 using the "in
 \section*{Discussion}
 \color{Black}
 
-The limitations of this study include the inter-annotator agreement (IAA) score, which posed a challenge for the generative AI models. If humans cannot agree on the labels for the data, it would pose a major challenge for classification AI. The original paper's method of separating the data into distorted and non-distorted classes was validated in this study. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model.
+The inter-annotator agreement (IAA) score posed a challenge in this study, as the human annotators had difficulty agreeing on the labels for the data. 
+This challenge may have affected the performance of the generative AI models, as sampling data with generative AI might get confused when it isn't clear which distortion 
+is inside of the sample(s). If humans can't agree, it would pose a major challenge to classification AI. Validating the original paper in separating the data, 
+we found that the best model for detecting cognitive distortions from patient-therapist interactions is the "intfloat/multilingual-e5-large-instruct" SBERT model with 
+SVM classification and hyperparameter tuning, which achieved an F1-score of 0.765. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive 
+data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with 
+SVM classification model.
+For future work, we could Explore different methods of text generation, such as fine-tuning GPT-2 models and use GPT-4 to categorize data.
+Different methods of categorization, such as using GPT-4 to categorize data instead of usual ML models and manually implementing an F1 score for the multi-class records.
+
 
 \begin{center}\vspace{1cm}
 \centering
@@ -238,16 +278,16 @@ The limitations of this study include the inter-annotator agreement (IAA) score,
 \toprule
 \textbf{Cognitive Distortion} & \textbf{\begin{tabular}[c]{@{}l@{}}Percentage of Records \\ containing a Secondary Distortion\end{tabular}} \\
 \midrule
-All-or-Nothing Thinking       & 0.23                                                                                                        \\\hline
-Emotional Reasoning           & 0.27                                                                                                        \\\hline
-Fortune-Telling               & 0.29                                                                                                        \\\hline
-Labeling                      & 0.38                                                                                                        \\\hline
-Magnification                 & 0.26                                                                                                        \\\hline
-Mental Filter                 & 0.34                                                                                                        \\\hline
-Mind Reading                  & 0.17                                                                                                        \\\hline
-Overgeneralization            & 0.22                                                                                                        \\\hline
-Personalization               & 0.32                                                                                                        \\\hline
-Should statements             & 0.20                                                                                                       
+All-or-Nothing Thinking       & 23\%                                                                                                        \\\hline
+Emotional Reasoning           & 27\%                                                                                                        \\\hline
+Fortune-Telling               & 29\%                                                                                                        \\\hline
+Labeling                      & 38\%                                                                                                        \\\hline
+Magnification                 & 26\%                                                                                                        \\\hline
+Mental Filter                 & 34\%                                                                                                        \\\hline
+Mind Reading                  & 17\%                                                                                                        \\\hline
+Overgeneralization            & 22\%                                                                                                        \\\hline
+Personalization               & 32\%                                                                                                        \\\hline
+Should statements             & 20\%                                                                                                       
 \end{tabular}
 \captionof{table}{\color{Teal} {  Analysis of Secondary Distortions in Cognitive Distortions}
 \label{origCounts}}
