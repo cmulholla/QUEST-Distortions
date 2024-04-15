@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  15 APR 2024 12:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  15 APR 2024 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex
-(c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex
+**"c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5 copy.tex"
+(c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5 copy.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (a0poster.cls
@@ -282,8 +282,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box100
-) (conference_poster_5.aux)
-\openout1 = `conference_poster_5.aux'.
+) (conference_poster_5 copy.aux)
+\openout1 = `"conference_poster_5 copy.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -350,66 +350,71 @@ Excluding 'comment' comment.
 <figures/1stFour.png, id=3, 1243.64626pt x 981.6675pt>
 File: figures/1stFour.png Graphic file (type png)
 <use figures/1stFour.png>
-Package pdftex.def Info: figures/1stFour.png  used on input line 185.
+Package pdftex.def Info: figures/1stFour.png  used on input line 204.
 (pdftex.def)             Requested size: 692.07053pt x 546.28488pt.
 <figures/F1ScoresInitSBERT.png, id=4, 617.9085pt x 476.2593pt>
 File: figures/F1ScoresInitSBERT.png Graphic file (type png)
 <use figures/F1ScoresInitSBERT.png>
-Package pdftex.def Info: figures/F1ScoresInitSBERT.png  used on input line 197.
-(pdftex.def)             Requested size: 489.33795pt x 377.15637pt.
+Package pdftex.def Info: figures/F1ScoresInitSBERT.png  used on input line 220.
+(pdftex.def)             Requested size: 692.07053pt x 533.4431pt.
 <figures/generatedDataDiffDiff.png, id=5, 737.8767pt x 460.3599pt>
 File: figures/generatedDataDiffDiff.png Graphic file (type png)
 <use figures/generatedDataDiffDiff.png>
-Package pdftex.def Info: figures/generatedDataDiffDiff.png  used on input line 211.
-(pdftex.def)             Requested size: 692.07053pt x 431.81111pt.
-<figures/finalGraphs.png, id=6, 1017.8025pt x 411.78844pt>
-File: figures/finalGraphs.png Graphic file (type png)
-<use figures/finalGraphs.png>
-Package pdftex.def Info: figures/finalGraphs.png  used on input line 224.
-(pdftex.def)             Requested size: 692.07053pt x 280.01242pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 237.
+Package pdftex.def Info: figures/generatedDataDiffDiff.png  used on input line 239.
+(pdftex.def)             Requested size: 419.43861pt x 261.69136pt.
+<FlowChart.png, id=6, 750.30313pt x 382.42876pt>
+File: FlowChart.png Graphic file (type png)
+<use FlowChart.png>
+Package pdftex.def Info: FlowChart.png  used on input line 247.
+(pdftex.def)             Requested size: 692.07053pt x 352.76654pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 265.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 237.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 265.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-[]\OT1/ptm/m/n/24.88 Detecting Cog-ni-tive Dis-tor-tions from Patient-Therapist
+Overfull \hbox (7.32748pt too wide) in paragraph at lines 265--281
+ [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-\OT1/ptm/m/n/24.88 In-ter-ac-tions. (2021). \OT1/ptm/m/it/24.88 ACL An-thol-ogy\OT1/ptm/m/n/24.88 . Re-trieved from
- []
-
-
-Overfull \vbox (12.42346pt too high) has occurred while \output is active []
-
- [1
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 291.
+(C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1
 
 
 Non-PDF special ignored!
 <special> papersize=118.82cm,83.96cm
-{C:/Users/meaps/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./LTU2.png> <./figures/1stFour.png> <./figures/F1ScoresInitSBERT.png> <./figures/generatedDataDiffDiff.png> <./figures/finalGraphs.png>] (conference_poster_5.aux)
+{C:/Users/meaps/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./LTU2.png> <./figures/1stFour.png> <./figures/F1ScoresInitSBERT.png> <./figures/generatedDataDiffDiff.png> <./FlowChart.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+[]\OT1/ptm/m/n/24.88 Detecting Cog-ni-tive Dis-tor-tions from Patient-Therapist
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+\OT1/ptm/m/n/24.88 In-ter-ac-tions. (2021). \OT1/ptm/m/it/24.88 ACL An-thol-ogy\OT1/ptm/m/n/24.88 . Re-trieved from
+ []
+
+[2] (conference_poster_5 copy.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5143 strings out of 474424
- 86971 string characters out of 5741739
- 1969496 words of memory out of 5000000
- 27440 multiletter control sequences out of 15000+600000
- 577741 words of font info for 73 fonts, out of 8000000 for 9000
+ 5175 strings out of 474424
+ 87533 string characters out of 5741739
+ 1957496 words of memory out of 5000000
+ 27467 multiletter control sequences out of 15000+600000
+ 580188 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,71p,1447b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,71p,710b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_poster_5.pdf (1 page, 422687 bytes).
+Output written on "conference_poster_5 copy.pdf" (2 pages, 427855 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

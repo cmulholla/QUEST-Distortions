@@ -1,7 +1,7 @@
 PWD c:\Users\meaps\OneDrive\Desktop\Programming\QUEST-Distortions\questPoster\LTUResearchPoster2022TEMPLATE(1)
 INPUT C:\Users\meaps\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\meaps\OneDrive\Desktop\Programming\QUEST-Distortions\questPoster\LTUResearchPoster2022TEMPLATE(1)\conference_poster_5.tex
-OUTPUT conference_poster_5.log
+INPUT c:\Users\meaps\OneDrive\Desktop\Programming\QUEST-Distortions\questPoster\LTUResearchPoster2022TEMPLATE(1)\conference_poster_5 copy.tex
+OUTPUT conference_poster_5 copy.log
 INPUT .\a0poster.cls
 INPUT a0poster.cls
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -74,10 +74,10 @@ INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\conference_poster_5.aux
-INPUT .\conference_poster_5.aux
-INPUT conference_poster_5.aux
-OUTPUT conference_poster_5.aux
+INPUT .\conference_poster_5 copy.aux
+INPUT .\conference_poster_5 copy.aux
+INPUT conference_poster_5 copy.aux
+OUTPUT conference_poster_5 copy.aux
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -95,7 +95,7 @@ INPUT .\LTU2.png
 INPUT .\LTU2.png
 INPUT .\LTU2.png
 INPUT .\LTU2.png
-OUTPUT conference_poster_5.pdf
+OUTPUT conference_poster_5 copy.pdf
 INPUT .\LTU2.png
 INPUT .\LTU2.png
 INPUT .\LTU2.png
@@ -122,13 +122,15 @@ INPUT .\figures\generatedDataDiffDiff.png
 INPUT .\figures\generatedDataDiffDiff.png
 INPUT .\figures\generatedDataDiffDiff.png
 INPUT .\figures\generatedDataDiffDiff.png
-INPUT .\figures\finalGraphs.png
-INPUT .\figures\finalGraphs.png
-INPUT .\figures\finalGraphs.png
-INPUT .\figures\finalGraphs.png
-INPUT .\figures\finalGraphs.png
-INPUT .\figures\finalGraphs.png
-INPUT .\figures\finalGraphs.png
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT .\FlowChart.png
+INPUT .\FlowChart.png
+INPUT .\FlowChart.png
+INPUT .\FlowChart.png
+INPUT .\FlowChart.png
+INPUT .\FlowChart.png
+INPUT .\FlowChart.png
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -153,7 +155,10 @@ INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\meaps\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -172,9 +177,13 @@ INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.v
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT conference_poster_5.aux
+INPUT conference_poster_5 copy.aux
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\meaps\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
