@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  13 APR 2024 18:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  13 APR 2024 20:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/meaps/OneDrive/Desktop/Programming/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex
-(c:/Users/meaps/OneDrive/Desktop/Programming/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex
+**c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex
+(c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (a0poster.cls
@@ -272,8 +272,10 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 \WF@box=\box99
 \WF@everypar=\toks30
 Package: wrapfig 2003/01/31  v 3.6
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 39.
+) (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment')
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 40.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -283,20 +285,20 @@ File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 ) (conference_poster_5.aux)
 \openout1 = `conference_poster_5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -319,106 +321,105 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+ Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
 
  []
 
 <LTU2.png, id=1, 602.25pt x 314.67563pt>
 File: LTU2.png Graphic file (type png)
 <use LTU2.png>
-Package pdftex.def Info: LTU2.png  used on input line 60.
+Package pdftex.def Info: LTU2.png  used on input line 129.
 (pdftex.def)             Requested size: 569.05511pt x 297.36043pt.
 
-Overfull \hbox (11.75656pt too wide) in paragraph at lines 60--61
+Overfull \hbox (11.75656pt too wide) in paragraph at lines 129--130
 [][] 
  []
 
-<GPT_1.png, id=3, 703.62875pt x 116.435pt>
-File: GPT_1.png Graphic file (type png)
-<use GPT_1.png>
-Package pdftex.def Info: GPT_1.png  used on input line 93.
-(pdftex.def)             Requested size: 692.07053pt x 114.52124pt.
-
-LaTeX Warning: Citation `original_paper' on page 1 undefined on input line 102.
-
-<Example.png, id=4, 531.9875pt x 86.3225pt>
+Excluding 'comment' comment.
+<Example.png, id=3, 531.9875pt x 86.3225pt>
 File: Example.png Graphic file (type png)
 <use Example.png>
-Package pdftex.def Info: Example.png  used on input line 105.
+Package pdftex.def Info: Example.png  used on input line 191.
 (pdftex.def)             Requested size: 692.07053pt x 112.30745pt.
-<Example1.png, id=5, 647.41875pt x 110.4125pt>
+<Example1.png, id=4, 647.41875pt x 110.4125pt>
 File: Example1.png Graphic file (type png)
 <use Example1.png>
-Package pdftex.def Info: Example1.png  used on input line 119.
+Package pdftex.def Info: Example1.png  used on input line 220.
 (pdftex.def)             Requested size: 692.07053pt x 118.03404pt.
-<Fine-Tune-GPT.png, id=6, 388.95313pt x 108.90688pt>
+<Fine-Tune-GPT.png, id=5, 388.95313pt x 108.90688pt>
 File: Fine-Tune-GPT.png Graphic file (type png)
 <use Fine-Tune-GPT.png>
-Package pdftex.def Info: Fine-Tune-GPT.png  used on input line 135.
+Package pdftex.def Info: Fine-Tune-GPT.png  used on input line 239.
 (pdftex.def)             Requested size: 419.43861pt x 117.44647pt.
-<FlowChart.png, id=7, 750.30313pt x 382.42876pt>
+<FlowChart.png, id=6, 750.30313pt x 382.42876pt>
 File: FlowChart.png Graphic file (type png)
 <use FlowChart.png>
-Package pdftex.def Info: FlowChart.png  used on input line 142.
+Package pdftex.def Info: FlowChart.png  used on input line 246.
 (pdftex.def)             Requested size: 692.07053pt x 352.76654pt.
-<Example2.png, id=8, 465.74pt x 90.83937pt>
+<Example2.png, id=7, 465.74pt x 90.83937pt>
 File: Example2.png Graphic file (type png)
 <use Example2.png>
-Package pdftex.def Info: Example2.png  used on input line 150.
+Package pdftex.def Info: Example2.png  used on input line 254.
 (pdftex.def)             Requested size: 692.07053pt x 134.99736pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 164.
-(C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 268.
+ (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 164.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 268.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (7.32748pt too wide) in paragraph at lines 164--180
+Overfull \hbox (7.32748pt too wide) in paragraph at lines 268--284
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 190.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 294.
 (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+[]\OT1/ptm/m/n/24.88 Detecting Cog-ni-tive Dis-tor-tions from Patient-Therapist
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+\OT1/ptm/m/n/24.88 In-ter-ac-tions. (2021). \OT1/ptm/m/it/24.88 ACL An-thol-ogy\OT1/ptm/m/n/24.88 . Re-trieved from
+ []
+
+[1
 
 
 Non-PDF special ignored!
 <special> papersize=118.82cm,83.96cm
-{C:/Users/meaps/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./LTU2.png> <./GPT_1.png> <./Example.png> <./Example1.png> <./Fine-Tune-GPT.png> <./FlowChart.png> <./Example2.png>] (conference_poster_5.aux)
+{C:/Users/meaps/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./LTU2.png> <./Example.png> <./Example1.png> <./Fine-Tune-GPT.png> <./FlowChart.png> <./Example2.png>] (conference_poster_5.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 5129 strings out of 474424
- 86022 string characters out of 5741739
- 1961496 words of memory out of 5000000
- 27427 multiletter control sequences out of 15000+600000
- 578504 words of font info for 75 fonts, out of 8000000 for 9000
+ 5181 strings out of 474424
+ 87267 string characters out of 5741739
+ 1966496 words of memory out of 5000000
+ 27473 multiletter control sequences out of 15000+600000
+ 580188 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,71p,1422b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on conference_poster_5.pdf (1 page, 783260 bytes).
+ 57i,6n,71p,703b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_poster_5.pdf (1 page, 775504 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -35,8 +35,77 @@
 \usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
 \usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
 \usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{comment} % Allows for commenting out large sections of text
 
 \begin{document}
+
+
+\begin{comment}
+  ##### block 1: Abstract
+(already figured out)
+##### block 2: Introduction
+- Cognitive distortions
+- Cognitive-behavioral therapy (CBT)
+- The original paper - https://aclanthology.org/2021.clpsych-1.17.pdf (Detecting Cognitive Distortions from Patient-Therapist Interactions)
+- The problem of class imbalance in cognitive distortion predictive models
+- The potential of generative AI models to address class imbalance
+- The individual class classification vs binary classification
+##### block 3: Initial Data Analysis
+- The dataset used in this study
+- Including the non-distorted class, running the data on tfidf and LinearSVC gives an F1-score of 0.32 as it only predicts the non-distorted and the 2nd highest distorted class
+- Treating the problem as a binary classification problem and a multi-class classification problem for the 10 classes makes the models more useful
+- The best F1-score for the multi-class classification problem is 0.21 using tfidf and LinearSVC
+- The best F1-score for the binary classification problem is 0.73 using tfidf and SVC
+- include graphs of the data, talk over with the professor which to include
+	- show class imbalance
+	- combine average scores for the no distortion and with no distortion data
+	- heatmap of confusion matrix for best model
+		- each of these available for binary and multi-class classification
+	- show w/ no distortion heatmap
+##### block 4: Sentence-BERT Embeddings
+- Sentence-BERT (SBERT) embedding models
+- Compare different models and their performance
+- The best F1-score for the multi-class classification problem is 0.262 using the "intfloat/multilingual-e5-large-instruct" Sentence Transformer and LinearSVC
+- The best F1-score for the binary classification problem is 0.756 using the "intfloat/multilingual-e5-large-instruct" Sentence Transformer with SVM
+- ![[Pasted image 20240411161914.png]]
+##### block 5: Generative AI Models
+- Compare different generation techniques and their performance
+- Compare different models and their performance
+	- I have graphs for these:
+	- average difference in F1 for each type of model and each type of generation technique and each type of classification (binary vs multiclass)
+	- Probably same graphs as the initial graphs? Or could I roll all the graphs into 1? Or should I just focus on the change in score rather than the numbers themselves?
+##### block 6: Results and Evaluation
+- The best F1-score for the multi-class classification problem is 0.298 using the "intfloat/multilingual-e5-large-instruct" Sentence Transformer and MLPClassifier with hyperparameter tuning
+- The best F1-score for the binary classification problem is 0.765 using the "intfloat/multilingual-e5-large-instruct" Sentence Transformer and SVM with hyperparameter tuning
+- Include graphs of the data, talk over with the professor which to include
+- have the classification report for each classification method (binary and multi-class)
+	- support test count
+##### Discussion
+- Include the limitations of the study
+- Inter-Annotator Agreement IAA score which posed a challenge
+	- how it affects the generative AI - sampling data with generative AI might get it confused when it isn't clear which distortion is inside of the sample(s)
+- If humans can't agree, it would pose a major challenge to classification AI
+- Validating the original paper in separating the data
+- ![[Pasted image 20240411163356.png]]
+	- remove no distortion AI
+	- table-ize this data
+##### block 7: Conclusion
+- The best model and the best F1-score
+- Reiterate the problem and the goals
+- Include the future work
+  - different methods of text generation
+	  - fine-tuning gpt2 like in [this paper](https://www.researchgate.net/publication/346813794_Exploring_the_Potential_of_GPT-2_for_Generating_Fake_Reviews_of_Research_Papers)
+  	- playing around with many kinds of text generation inputs
+  - different methods of categorization
+  	- using gpt4 to categorize data instead of usual ML models
+  	- manually implementing an F1 score for the multi class records
+- Bring it all back to CBTherapy
+	- How simply the binary classification is useful for a future system and would be a good first step for further analysis by a human
+##### block 8: Acknowledgements
+- include: QUEST Program, Dr. Lauren
+##### block 9: References
+- include: the main paper and the kaggle dataset, along with sklearn stuff like in the original paper, huggingface models
+\end{comment}
 
 \begin{minipage}[b]{0.55\linewidth}
 \veryHuge \color{DarkOrange} \textbf{Exploring Generative A.I. for Addressing Class \\ Imbalance in Cognitive Distortion Predictive Models} 
@@ -67,11 +136,18 @@ Science Building S121D\\
 \begin{multicols}{4} % This is how many columns your poster will be broken into, a poster with many figures may benefit from less columns whereas a text-heavy poster benefits from more
 
 
-
+%%%%%%%%%%%%%% ABSTRACT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}
 \section*{Abstract}
 \color{black} 
-Modern tools for natural language generation may enable Artificial Intelligence (AI) models to be better trained on imbalanced data by generating records for the minority classes. Specifically, the psychoanalytic cognitive distortion data is based on the irrational or biased ways of thinking which can contribute to negative emotions and behaviors, which are crucial in many types of therapy. We compare various types of Generative AI models for generating new records and the current limitations of these new models. We find that pretrained Sentence-Bidirectional Encoder Representations from Transformers (Sentence-BERT) embeddings (i.e., multilingual-e5-large-instruct) used to train a Support Vector Machine (SVM) classifier model yields the best binary results with an F1-score of 0.756. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same Sentence-BERT embeddings with SVM classification model.
+
+Modern tools for natural language generation may enable Artificial Intelligence (AI) models to be better trained on imbalanced data by generating records for the 
+minority classes. Specifically, the psychoanalytic cognitive distortion data is based on the irrational or biased ways of thinking which can contribute to negative 
+emotions and behaviors, which are crucial in many types of therapy. We compare various types of Generative AI models for generating new records and the current 
+limitations of these new models. We find that pretrained Sentence-Bidirectional Encoder Representations from Transformers (Sentence-BERT) embeddings 
+(i.e., multilingual-e5-large-instruct) used to train a Support Vector Machine (SVM) classifier model yields the best binary results with an F1-score of 0.756. 
+The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal 
+boost in performance with an F1-score of 0.765 using the same Sentence-BERT embeddings with SVM classification model.
 
 
 
@@ -89,31 +165,56 @@ Modern tools for natural language generation may enable Artificial Intelligence 
 
 \color{Black}
 
+\begin{comment}
 \begin{center}\vspace{0.5cm}
 \includegraphics[width=0.99\linewidth]{GPT_1.png}
 \captionof{figure}{\color{Teal} Generative Pre-trained Transformer Architecture.}
 \end{center}\vspace{0.5cm}
+\end{comment}
 
 \color{Teal}
 
+%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Introduction}
 \color{Black}
 
-Cognitive distortions are irrational or biased ways of thinking that can contribute to negative emotions and behaviors. Cognitive-behavioral therapy (CBT) is a common therapeutic approach that aims to help individuals identify and challenge these distortions. Detecting cognitive distortions from patient-therapist interactions is a challenging task that has been addressed in recent research. The original paper by \cite{original_paper} uses a dataset of patient-therapist interactions to train a model to detect cognitive distortions. However, the dataset is highly imbalanced, with the majority of the data belonging to the non-distorted class. This class imbalance poses a challenge for training accurate predictive models. Generative AI models have the potential to address class imbalance by generating synthetic data for the minority classes. In this study, we explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. We compare the performance of different generative AI models and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions. We consider both binary and multi-class classification tasks and evaluate the models using F1-score as the performance metric.
+Cognitive distortions are irrational or biased ways of thinking that can contribute to negative emotions and behaviors. Cognitive-behavioral therapy (CBT) is a common 
+therapeutic approach that aims to help individuals identify and challenge these distortions. Detecting cognitive distortions from patient-therapist interactions is a 
+challenging task that has been addressed in recent research. The paper who first utilized this data\cite{original_paper} uses a dataset of patient-therapist interactions to train a 
+model to detect cognitive distortions. However, the dataset is highly imbalanced, with the majority of the data belonging to the non-distorted class. This class 
+imbalance poses a challenge for training accurate predictive models. Generative AI models have the potential to address class imbalance by generating synthetic data 
+for the minority classes. In this study, we explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. We compare 
+the performance of different generative AI models and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions. 
+We consider both binary and multi-class classification tasks and evaluate the models using F1-score as the performance metric.
 
 \begin{center}\vspace{0.5cm}
 \includegraphics[width=0.99\linewidth]{Example.png}
 \captionof{figure}{\color{Teal} Analogy Pair Task Example}
 \end{center}\vspace{0.5cm}
 
+%%%%%%%%%%%%%% INITIAL DATA ANALYSIS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}
 \section*{Initial Data Analysis}
 \color{Black}
 
+We use a dataset of patient-therapist interactions to train our models. The dataset contains 10 classes of cognitive distortions, with the majority of the data belonging 
+to the non-distorted class. We first treat the problem as a binary classification task, where we combine all the distorted classes into a single class and compare the 
+performance of different classification algorithms. We use the Term Frequency-Inverse Document Frequency (tf-idf) vectorizer to convert the text data into numerical 
+features and train a Linear Support Vector Classifier (LinearSVC) on the data. The best F1-score for the binary classification task is 0.73 using tf-idf and LinearSVC. 
+We then treat the problem as a multi-class classification task and compare the performance of different classification algorithms. The best F1-score for the multi-class 
+classification task is 0.21 using tf-idf and LinearSVC. The addition of the non-distorted class to the multi-class classification task resulted in a marginal improvement 
+in performance, with an F1-score of 0.32 using tf-idf and LinearSVC.
+
+%%%%%%%%%%%%%% SBERT EMBEDDINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}
 \section*{Sentence-BERT Embeddings}
 \color{Black}
 
+Sentence-BERT (SBERT) is a variant of the BERT model that is specifically trained to generate sentence embeddings. We compare the performance of different SBERT models 
+on the task of detecting cognitive distortions from patient-therapist interactions. We use the Sentence Transformer library to generate SBERT embeddings for the text 
+data and train different classification algorithms on the embeddings. The best F1-score for the multi-class classification task is 0.262 using the 
+"intfloat/multilingual-e5-large-instruct" SBERT model and LinearSVC. The best F1-score for the binary classification task is 0.756 using the 
+"intfloat/multilingual-e5-large-instruct" SBERT model with SVM.
 
 \begin{center}\vspace{1cm}
 \includegraphics[width=0.99\linewidth]{Example1.png}
@@ -122,14 +223,17 @@ Cognitive distortions are irrational or biased ways of thinking that can contrib
 
 \color{Black}
 
-%\color{Teal}
-
-%\section*{Comparison of Subword Tokens}
-%\color{Black}
+%%%%%%%%%%%%%% GENERATIVE AI MODELS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}
 \section*{Generative AI Models}
 \color{Black}
 
+We explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. We compare the performance of different generation 
+techniques, including fine-tuning GPT-2 models and recursive data generation. We also compare the performance of different classification algorithms on the generated data. 
+The best F1-score for the multi-class classification task is 0.285 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter 
+tuning. The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning. 
+The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost 
+in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model.
 
 \begin{center}
 \includegraphics[width=0.60\linewidth]{Fine-Tune-GPT.png}
@@ -204,15 +308,6 @@ In conclusion to our research, fine-tuning is a crucial process that can signifi
 \vspace{1cm}
 Our analysis of the fine-tuning results shows that the fine-tuned GPT models outperformed their pre-trained large language model and achieved better results in the analogy task. This indicates the effectiveness of the fine-tuning process in improving the models' performance on specific tasks or domains.
 
-\color{Teal}
-\section*{Future work}
-\color{Black}
-
-
-As a next step in this area, one potential direction for future work is to explore the potential of fine-tuning NLP models for mathematical tasks. Pre-trained models have shown impressive performance in language-related tasks, but their performance in mathematical tasks is relatively limited. To overcome this limitation, researchers can fine-tune models specifically for mathematical tasks, such as equation solving or mathematical expression generation. This could involve designing new architectures or adapting existing ones to better handle mathematical inputs and outputs, as well as experimenting with different fine-tuning techniques to optimize the models' performance on these tasks.
-
-
-Another area for future work is investigating the feasibility of creating customized language models tailored to specific tasks or domains, rather than relying on pre-trained models. This could involve collecting and preprocessing relevant data, designing appropriate architectures, and training the models from scratch using various supervised or unsupervised learning techniques. By creating language models specific to a given task or domain, researchers can build more efficient and accurate models that can better handle the specific nuances of the input data.
 %----------------------------------------------------------------------------------------
 %	FORTHCOMING RESEARCH
 %----------------------------------------------------------------------------------------
@@ -230,6 +325,20 @@ Another area for future work is investigating the feasibility of creating custom
 %\bibliography{sample} % Use the example bibliography file sample.bib
 
 %----------------------------------------------------------------------------------------
-\nocite{*}
+
+\color{Teal}
+\section*{Acknowledgements}
+\color{Black}
+
+We would like to acknowledge the support of the QUEST Program and Dr. Lauren for their guidance and assistance throughout this research project.
+
+\color{Teal}
+\begin{thebibliography}{9}
+\color{Black}
+
+\bibitem{original_paper}
+Detecting Cognitive Distortions from Patient-Therapist Interactions. (2021). \textit{ACL Anthology}. Retrieved from https://aclanthology.org/2021.clpsych-1.17.pdf
+\end{thebibliography}
+
 \end{multicols}
 \end{document}
