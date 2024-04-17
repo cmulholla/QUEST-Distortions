@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  16 APR 2024 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  16 APR 2024 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -345,28 +345,28 @@ Package pdftex.def Info: figures/QuestLTU1.png  used on input line 60.
 <figures/1stFour.png, id=3, 1243.64626pt x 981.6675pt>
 File: figures/1stFour.png Graphic file (type png)
 <use figures/1stFour.png>
-Package pdftex.def Info: figures/1stFour.png  used on input line 129.
+Package pdftex.def Info: figures/1stFour.png  used on input line 110.
 (pdftex.def)             Requested size: 734.3231pt x 579.64316pt.
 <figures/F1ScoresInitSBERT.png, id=4, 617.9085pt x 476.2593pt>
 File: figures/F1ScoresInitSBERT.png Graphic file (type png)
 <use figures/F1ScoresInitSBERT.png>
-Package pdftex.def Info: figures/F1ScoresInitSBERT.png  used on input line 146.
+Package pdftex.def Info: figures/F1ScoresInitSBERT.png  used on input line 123.
 (pdftex.def)             Requested size: 600.80467pt x 463.09735pt.
 <figures/generatedDataDiffDiff.png, id=5, 737.8767pt x 460.3599pt>
 File: figures/generatedDataDiffDiff.png Graphic file (type png)
 <use figures/generatedDataDiffDiff.png>
-Package pdftex.def Info: figures/generatedDataDiffDiff.png  used on input line 169.
+Package pdftex.def Info: figures/generatedDataDiffDiff.png  used on input line 137.
 (pdftex.def)             Requested size: 712.07191pt x 444.29369pt.
 <figures/finalGraphs.png, id=6, 1017.8025pt x 411.78844pt>
 File: figures/finalGraphs.png Graphic file (type png)
 <use figures/finalGraphs.png>
-Package pdftex.def Info: figures/finalGraphs.png  used on input line 183.
+Package pdftex.def Info: figures/finalGraphs.png  used on input line 150.
 (pdftex.def)             Requested size: 712.07191pt x 288.10541pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 205.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 165.
 (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 205.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 165.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -389,7 +389,7 @@ Here is how much of TeX's memory you used:
  27392 multiletter control sequences out of 15000+600000
  576057 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,71p,1202b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,71p,1555b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
 Output written on CognitiveDistortionsPoster.pdf (1 page, 539026 bytes).
 PDF statistics:
