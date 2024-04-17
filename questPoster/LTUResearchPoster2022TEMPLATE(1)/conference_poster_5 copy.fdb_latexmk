@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713198408.83927 "c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5 copy.tex" "conference_poster_5 copy.pdf" "conference_poster_5 copy" 1713198410.02507 0
+["pdflatex"] 1713210953.05611 "c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5 copy.tex" "conference_poster_5 copy.pdf" "conference_poster_5 copy" 1713210954.26797 0
   "C:/Users/meaps/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1713053723 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/meaps/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1713044737 24236006 0f771cf4f14b77984beb349847c6bf86 ""
   "C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -64,11 +64,11 @@
   "a0poster.cls" 1712960687 6176 37402c6052502599d35b9e16a21767aa ""
   "a0size.sty" 1712960688 7728 3b92cf7fd22bdf46734222814afe7554 ""
   "c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5 copy.tex" 1713198406 19896 39da8d4f88fa669010f818d2c17283aa ""
-  "conference_poster_5 copy.aux" 1713198409 1041 8e4f894bb74bea3937365ac0e340a652 "pdflatex"
+  "conference_poster_5 copy.aux" 1713210954 1041 8e4f894bb74bea3937365ac0e340a652 "pdflatex"
   "conference_poster_5 copy.tex" 1713198406 19896 39da8d4f88fa669010f818d2c17283aa ""
   "figures/1stFour.png" 1713197558 240704 93712cb06505cb64f4466742d2d875b3 ""
   "figures/F1ScoresInitSBERT.png" 1713155027 69252 408aee483751e7772475725fd2f6ab37 ""
-  "figures/generatedDataDiffDiff.png" 1713167637 49273 d7f2c3d98f6e15aefcae350910915392 ""
+  "figures/generatedDataDiffDiff.png" 1713210952 52867 99152be8986178e3d72a3bf552654450 ""
   (generated)
   "conference_poster_5 copy.aux"
   "conference_poster_5 copy.log"

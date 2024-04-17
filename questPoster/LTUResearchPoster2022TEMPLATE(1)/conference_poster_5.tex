@@ -175,14 +175,14 @@ Modern tools for natural language generation may enable Artificial Intelligence 
 
 Cognitive distortions are irrational or biased ways of thinking that can contribute to negative emotions and behaviors. 
 Cognitive-behavioral therapy (CBT) is a common therapeutic approach that aims to help individuals identify and challenge these distortions.
-Detecting cognitive distortions from patient-therapist interactions is a challenging task that has been addressed in recent research, and could be crucial in many types of therapy to help therapstis and individuals identify and challenge these distortions.
-The paper who first utilized this data\cite{original_paper} uses a dataset of patient-therapist interactions to train a model to detect cognitive distortions.
-However, the dataset is highly imbalanced, with the majority of the data belonging to the non-distorted class.
-This class imbalance poses a challenge for training accurate predictive models.
-Generative AI models have the potential to address class imbalance by generating synthetic data for the minority classes.
-In this study, we explore the use of generative AI models to address class imbalance in cognitive distortion predictive models.
-We compare the performance of different generative AI models and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions.
-We consider both binary and multi-class classification tasks and evaluate the models using F1-score as the performance metric.
+Detecting cognitive distortions from patient-therapist interactions is a challenging task that has been addressed in recent research, and could be crucial in many types of 
+therapy to help therapstis and individuals identify and challenge these distortions.
+Prior research has attempted to use a dataset of human-labeled patient-therapist interactions to train a model to detect cognitive distortions\cite{original_paper}.
+However, the dataset is highly imbalanced, with the majority of the data belonging to the non-distorted class, which poses a challenge for predictive modeling.
+Generative AI models have the potential to address class imbalance by generating new data for the minority classes.
+In this study, we explore the use of generative AI models to address class imbalance in cognitive distortion predictive models
+by comparing the performance of different generative AI models, vectorizers, and classification algorithms on the task of detecting cognitive distortions from patient-therapist interactions.
+We consider both binary and multi-class classification tasks and evaluate the models using the weighted F1-score as the performance metric.
 
 %%%%%%%%%%%%%% INITIAL DATA ANALYSIS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}
@@ -204,7 +204,8 @@ with an F1-score of 0.32 using tf-idf and LinearSVC.
 
 \begin{center}\vspace{0.5cm}
 	\includegraphics[width=0.99\linewidth]{figures/1stFour.png}
-	\captionof{figure}{\color{Teal} (Top-Left) Class Imbalance, (Top-Right) Average F1-Scores with and without No Distortion data, (Bottom-Left) Confusion Matrix of best model with No Distortion data, (Bottom-Right) F1 Scores for Binary Classification}
+	\label{figure1}
+	\captionof{figure}{\color{Teal} (Top-Left) Class Imbalance; (Top-Right) Average F1-Scores with and without No Distortion data; (Bottom-Left) Confusion Matrix of best model with No Distortion data; (Bottom-Right) F1 Scores for Binary Classification}
 \end{center}\vspace{0.5cm}
 
 %%%%%%%%%%%%%% SBERT EMBEDDINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -212,12 +213,16 @@ with an F1-score of 0.32 using tf-idf and LinearSVC.
 \section*{Sentence-BERT Embeddings}
 \color{Black}
 
-Sentence-BERT (SBERT) is a variant of the BERT model that is specifically trained to generate sentence embeddings. We compare the performance of different SBERT models on the task of detecting cognitive distortions from patient-therapist interactions. We use the Sentence Transformer library to generate SBERT embeddings for the text data and train different classification algorithms on the embeddings. The best F1-score for the multi-class classification task is 0.262 using the "intfloat/multilingual-e5-large-instruct" SBERT model and LinearSVC. The best F1-score for the binary classification task is 0.756 using the "intfloat/multilingual-e5-large-instruct" SBERT model with SVM.
+Sentence-BERT (SBERT) is a variant of the BERT model that is specifically trained to generate sentence embeddings. 
+We compare the performance of different SBERT models on the task of detecting cognitive distortions from patient-therapist interactions. 
+We use the Sentence Transformer library to generate SBERT embeddings for the text data and train different classification algorithms on the embeddings. 
+The best F1-score for the multi-class classification task is 0.262 using the "intfloat/multilingual-e5-large-instruct" (Multilingual) SBERT model and LinearSVC. 
+The best F1-score for the binary classification task is 0.756 using the same SBERT model with SVM.
 
 \begin{center}\vspace{1cm}
-\includegraphics[width=0.70\linewidth]{figures/F1ScoresInitSBERT.png}
+\includegraphics[width=0.81\linewidth]{figures/F1ScoresInitSBERT.png}
 \captionof{figure}{\color{Teal} F1-Scores for SBERT Models}
-\end{center}\vspace{1cm}
+\end{center}
 
 \color{Black}
 
@@ -227,17 +232,19 @@ Sentence-BERT (SBERT) is a variant of the BERT model that is specifically traine
 \color{Black}
 
 We explore the use of generative AI models to address class imbalance in cognitive distortion predictive models. 
-For the first set of experiments, we use the "mistralai/Mistral-7B-Instruct-v0.2" model to generate new records for the minority classes in the dataset.
-We used a recursive technique to generate new records taking the generated data and appending the same question and feeding it back to the model, extracting and storing the generated data.
-We then used a sampling technique by pulling three random samples from the generated data, acting as if the model generated that data, and asking the model to generate a fourth sample similar to the three and including the distortion with it.
-We used this sampling technique on GPT-4 as it was the most inexpensive, the fastest, and the cleanest method to generate data, although later we found that it was not the most effective.
-\\
-The best F1-score for the multi-class classification task is 0.285 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter tuning using the recursively generated data. 
-The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning using the recursively generated data. 
+For the first set of experiments, we use the "mistralai/Mistral-7B-Instruct-v0.2" (Mistral) model to generate new records for the minority classes in the dataset.
+We used a recursive technique to generate new records taking the generated data and appending the same question and feeding it back to the model, extracting and storing 
+the generated data.
+We then used a sampling technique by pulling three random samples from the generated data, acting as if the model generated that data, and asking the model to generate 
+a fourth sample similar to the three and including the distortion with it.
+We used this sampling technique on GPT-4 as it was the most inexpensive, the fastest, and the cleanest method to generate data, although later we found that it was not 
+the most effective.
+Results show that the addition of generated data using the Mistral model with recursive data generation on the binary classification task resulted in
+the highest F1-score boost for both the binary and multi-class classification tasks, with the ladder results shown below.
 
 \begin{center}
-\includegraphics[width=0.99\linewidth]{figures/generatedDataDiffDiff.png}
-\captionof{figure}{\color{Teal} Fine Tuning Architecture}
+\includegraphics[width=0.96\linewidth]{figures/generatedDataDiffDiff.png}
+\captionof{figure}{\color{Teal} Average Difference in F1-Score from baseline tests (no added generated data) for Different Generation Techniques and Classification Tasks}
 \end{center}\vspace{1cm}
 
 
@@ -246,35 +253,31 @@ The best F1-score for the binary classification task is 0.765 using the "intfloa
 \section*{Results and Evaluation}
 \color{Black}
 
-The best F1-score for the multi-class classification task is 0.298 using the "intfloat/multilingual-e5-large-instruct" SBERT model and MLPClassifier with hyperparameter tuning. 
-The best F1-score for the binary classification task is 0.765 using the "intfloat/multilingual-e5-large-instruct" SBERT model and SVM with hyperparameter tuning. 
-The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a 
-marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model.
+The best F1-score for the multi-class classification task is 0.298 using the Multilingual SBERT model and MLPClassifier with hyperparameter tuning and recursive generated Mistral data 2. 
+The best F1-score for the binary classification task is 0.765 using the Multilingual SBERT model and SVM with hyperparameter tuning and recursive generated Mistral data 2. 
 
 \begin{center}
-\includegraphics[width=0.99\linewidth]{figures/finalGraphs.png}
-\captionof{figure}{\color{Teal} F1-Scores for Final Models}
+\includegraphics[width=0.96\linewidth]{figures/finalGraphs.png}
+\captionof{figure}{\color{Teal} Confusion Matrix of best models' performance on the binary (left) and multi-class (right) classification task}
 \end{center}\vspace{1cm}
 
 %%%%%%%%%%%%%% DISCUSSION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}
 \section*{Discussion}
 \color{Black}
+The inter-annotator agreement (IAA) score posed a challenge in this study, as the human annotators had difficulty agreeing on the labels for the data (Table~\ref*{origCounts}). 
+This may have affected the performance of the generative AI models. 
+The best model we have found for detecting cognitive distortions from patient-therapist interactions is the Multilingual SBERT model with SVM classification and hyperparameter tuning, 
+achieving an F1-score of 0.765. 
+The best model we have found for classifying the data into the 10 classes is the Multilingual SBERT model with MLPClassifier and hyperparameter tuning, achieving an F1-score of 0.298.
+\vspace{0.5cm}
 
-The inter-annotator agreement (IAA) score posed a challenge in this study, as the human annotators had difficulty agreeing on the labels for the data. 
-This challenge may have affected the performance of the generative AI models, as sampling data with generative AI might get confused when it isn't clear which distortion 
-is inside of the sample(s). If humans can't agree, it would pose a major challenge to classification AI. Validating the original paper in separating the data, 
-we found that the best model for detecting cognitive distortions from patient-therapist interactions is the "intfloat/multilingual-e5-large-instruct" SBERT model with 
-SVM classification and hyperparameter tuning, which achieved an F1-score of 0.765. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive 
-data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with 
-SVM classification model.
-For future work, we could Explore different methods of text generation, such as fine-tuning GPT-2 models and use GPT-4 to categorize data.
-Different methods of categorization, such as using GPT-4 to categorize data instead of usual ML models and manually implementing an F1 score for the multi-class records.
+Future work includes exploring different methods of text 
+generation and categorization, such as fine-tuning other large language models and prompt engineering techniques to generate more data, potentially yielding higher F1-scores.
 
-
-\begin{center}\vspace{1cm}
+\begin{center}\vspace{0.1cm}
 \centering
-\begin{tabular}{l|c}
+\begin{tabular}{|l|c|}
 \toprule
 \textbf{Cognitive Distortion} & \textbf{\begin{tabular}[c]{@{}l@{}}Percentage of Records \\ containing a Secondary Distortion\end{tabular}} \\
 \midrule
@@ -287,18 +290,23 @@ Mental Filter                 & 34\%                                            
 Mind Reading                  & 17\%                                                                                                        \\\hline
 Overgeneralization            & 22\%                                                                                                        \\\hline
 Personalization               & 32\%                                                                                                        \\\hline
-Should statements             & 20\%                                                                                                       
+Should statements             & 20\%                                                                                                       \\\hline
 \end{tabular}
-\captionof{table}{\color{Teal} {  Analysis of Secondary Distortions in Cognitive Distortions}
+\captionof{table}{\color{Teal} {Analysis of Secondary Distortions in Cognitive Distortions}
 \label{origCounts}}
-\end{center}\vspace{1cm}
+\end{center}
 
 %%%%%%%%%%%%%% CONCLUSION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}
 \section*{Conclusion}
 \color{Black}
 
-In conclusion, the best model for detecting cognitive distortions from patient-therapist interactions is the "intfloat/multilingual-e5-large-instruct" SBERT model with SVM classification and hyperparameter tuning, which achieved an F1-score of 0.765. The addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task resulted in a marginal boost in performance with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model. Future work includes exploring different methods of text generation and categorization, such as fine-tuning GPT-2 models and using GPT-4 to categorize data. The binary classification task is useful for a future system and would be a good first step for further analysis by a human.
+In conclusion, the addition of generated data using the Mistral-7B-Instruct-v0.2 model with recursive data generation on the binary classification task 
+resulted in a boost of 0.01 with an F1-score of 0.765 using the same SBERT embeddings with SVM classification model. 
+On the other hand, the same additional data on the multi-class classification task resulted in a boost of 0.036 with an F1-score of 0.298 
+using the same SBERT embeddings with MLPClassifier and hyperparameter tuning.
+The binary classification task is useful for a future system and would be a good first step for further analysis by a human, but there is lots more work to be done 
+within this field and this project.
 
 %%%%%%%%%%%%%% ACKNOWLEDGEMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \color{Teal}

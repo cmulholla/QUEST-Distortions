@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  15 APR 2024 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.13)  16 APR 2024 12:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex
-(c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/LTUResearchPoster2022TEMPLATE(1)/conference_poster_5.tex
+**c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/CDLP/CognitiveDistortionsPoster.tex
+(c:/Users/meaps/OneDrive/Desktop/Programming/QUEST-Distortions/questPoster/CDLP/CognitiveDistortionsPoster.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
-(a0poster.cls
-Document Class: a0poster 1997/05/07 v1.21b a0poster class (GK, MW)
+(C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/a0poster\a0poster.cls
+Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
 (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
@@ -30,13 +30,16 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \ykoord=\count197
 \xscale=\count198
 \yscale=\count199
- (a0size.sty
-File: a0size.sty 1997/05/06 v1.21b a0poster class (GK, MW)
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 218.
+\Ausgabe=\write3
+\openout3 = `a0header.ps'.
+
+ (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/a0poster\a0size.sty
+File: a0size.sty 2004/01/31 v1.22b a0poster class (GK, MW)
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 229.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 218.
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 218.
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
 \big@size=\dimen141
 )) (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
@@ -272,33 +275,31 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 \WF@box=\box99
 \WF@everypar=\toks30
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
-\CommentStream=\write3
- Excluding comment 'comment')
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 40.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 39.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box100
-) (conference_poster_5.aux)
-\openout1 = `conference_poster_5.aux'.
+) (CognitiveDistortionsPoster.aux)
+\openout1 = `CognitiveDistortionsPoster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -321,92 +322,78 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
- Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 112--117
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--126
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--126
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
 
-<LTU2.png, id=1, 602.25pt x 314.67563pt>
-File: LTU2.png Graphic file (type png)
-<use LTU2.png>
-Package pdftex.def Info: LTU2.png  used on input line 130.
-(pdftex.def)             Requested size: 569.05511pt x 297.36043pt.
-
-Overfull \hbox (11.75656pt too wide) in paragraph at lines 130--131
-[][] 
- []
-
-Excluding 'comment' comment.
+<figures/QuestLTU1.png, id=1, 451.6875pt x 463.7325pt>
+File: figures/QuestLTU1.png Graphic file (type png)
+<use figures/QuestLTU1.png>
+Package pdftex.def Info: figures/QuestLTU1.png  used on input line 60.
+(pdftex.def)             Requested size: 426.79134pt x 438.20122pt.
 <figures/1stFour.png, id=3, 1243.64626pt x 981.6675pt>
 File: figures/1stFour.png Graphic file (type png)
 <use figures/1stFour.png>
-Package pdftex.def Info: figures/1stFour.png  used on input line 206.
-(pdftex.def)             Requested size: 692.07053pt x 546.28488pt.
+Package pdftex.def Info: figures/1stFour.png  used on input line 129.
+(pdftex.def)             Requested size: 734.3231pt x 579.64316pt.
 <figures/F1ScoresInitSBERT.png, id=4, 617.9085pt x 476.2593pt>
 File: figures/F1ScoresInitSBERT.png Graphic file (type png)
 <use figures/F1ScoresInitSBERT.png>
-Package pdftex.def Info: figures/F1ScoresInitSBERT.png  used on input line 218.
-(pdftex.def)             Requested size: 489.33795pt x 377.15637pt.
+Package pdftex.def Info: figures/F1ScoresInitSBERT.png  used on input line 146.
+(pdftex.def)             Requested size: 600.80467pt x 463.09735pt.
 <figures/generatedDataDiffDiff.png, id=5, 737.8767pt x 460.3599pt>
 File: figures/generatedDataDiffDiff.png Graphic file (type png)
 <use figures/generatedDataDiffDiff.png>
-Package pdftex.def Info: figures/generatedDataDiffDiff.png  used on input line 239.
-(pdftex.def)             Requested size: 692.07053pt x 431.81111pt.
+Package pdftex.def Info: figures/generatedDataDiffDiff.png  used on input line 169.
+(pdftex.def)             Requested size: 712.07191pt x 444.29369pt.
 <figures/finalGraphs.png, id=6, 1017.8025pt x 411.78844pt>
 File: figures/finalGraphs.png Graphic file (type png)
 <use figures/finalGraphs.png>
-Package pdftex.def Info: figures/finalGraphs.png  used on input line 255.
-(pdftex.def)             Requested size: 692.07053pt x 280.01242pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 277.
- (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+Package pdftex.def Info: figures/finalGraphs.png  used on input line 183.
+(pdftex.def)             Requested size: 712.07191pt x 288.10541pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 205.
+(C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 277.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 205.
  (C:\Users\meaps\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
 Non-PDF special ignored!
+<special> header=./a0header.ps
+Non-PDF special ignored!
 <special> papersize=118.82cm,83.96cm
-{C:/Users/meaps/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./LTU2.png> <./figures/1stFour.png> <./figures/F1ScoresInitSBERT.png> <./figures/generatedDataDiffDiff.png> <./figures/finalGraphs.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-[]\OT1/ptm/m/n/24.88 Detecting Cog-ni-tive Dis-tor-tions from Patient-Therapist
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-\OT1/ptm/m/n/24.88 In-ter-ac-tions. (2021). \OT1/ptm/m/it/24.88 ACL An-thol-ogy\OT1/ptm/m/n/24.88 . Re-trieved from
- []
-
-[2] (conference_poster_5.aux)
+{C:/Users/meaps/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./figures/QuestLTU1.png> <./figures/1stFour.png> <./figures/F1ScoresInitSBERT.png> <./figures/generatedDataDiffDiff.png> <./figures/finalGraphs.png>] (CognitiveDistortionsPoster.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5143 strings out of 474424
- 86971 string characters out of 5741739
- 1957496 words of memory out of 5000000
- 27440 multiletter control sequences out of 15000+600000
- 577741 words of font info for 73 fonts, out of 8000000 for 9000
+ 5092 strings out of 474424
+ 86002 string characters out of 5741739
+ 1971496 words of memory out of 5000000
+ 27392 multiletter control sequences out of 15000+600000
+ 576057 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,71p,1223b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_poster_5.pdf (2 pages, 425298 bytes).
+ 57i,12n,71p,1202b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meaps/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on CognitiveDistortionsPoster.pdf (1 page, 539026 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
